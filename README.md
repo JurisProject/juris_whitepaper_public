@@ -16,7 +16,7 @@ Authors reachable on Telegraph
 ---
 
 Contents:
-	[Introduction](#Contract-Parties)
+	[Introduction](#contract-parties)
 
 ---
 
