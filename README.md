@@ -15,6 +15,11 @@ Authors reachable on Telegraph
 
 ---
 
+Contents:
+	[Introduction](#-header-Contract-Parties)
+
+---
+
 ## Abstract
 
 Contract disputes occur. Off the blockchain, we resolve contract disputes through the court system or a form of Alternative Dispute Resolution (ADR). The more structured form of ADR, called “arbitration” involves the airing of grievances before a panel of neutral jurists, who assess the facts and provide a decision. The power of arbitration is recognized internationally, with 150 countries required by UN treaty to enforce international arbitration judgements. In the United States neutral arbitration is a for-profit business. But on the blockchain, there does not yet exist a platform for the fair and efficient resolution of disputes in smart contracts. In this paper we introduce Juris, an open source arbitration protocol built for the blockchain, and JurisCoin an Etherium-based utility token to facilitate and incentivize Juris platform transactions. Through the use of Juris' Mediation Tools, Contract Development Kit (CDK), and Adjudication Protocol, the outcome of any Ethereum smart contract may be contested through neutral arbitration should a dispute arise. The Juris protocol combines a novel reputation system with the inclusion of both professional human arbiters and the opportunity for future AI-powered arbitration mechanisms. In this paper we review Juris' improvements on the current state of the art, explore Juris as a framework, and describe a governance model for launch and future development. As a platform, Juris seeks to improve both the safety and security of smart contracts: reducing the risk in the transition of traditional transactions onto blockchain-based alternatives and, in turn, increasing broad adoption of blockchain technology.
