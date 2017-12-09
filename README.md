@@ -15,8 +15,27 @@ Authors reachable on Telegraph
 
 ---
 
-Contents:
-	[Introduction](#contract-parties)
+### Table of Contents
+
+- [Abstract](#abstract)
+	- [Calamity on the Blockchain](#calamity-on-the-blockchain)
+	- [Mission](#mission)
+- [Introduction](#introduction)
+- [Value Proposition](#value-proposition)
+    - [Contract Parties](#contract-parties)
+    - [Decentralized App Publishers](#decentralized-app-dapp-publishers)
+    - [Jurists](#jurists)
+- [Contracts](#contracts)
+    - [Contracts](#contracts)
+    - [Alternative Dispute Resolution](#alternative-dispute-resolution)
+    - [Smart Contracts](#smart-contracts)
+- [The Juris Platform for the Non-Technical](#the-juris-platform-for-the-non-technical)
+- [Real World Use Cases](#real-world-use-cases)
+- [SCAFT](#scaft)
+- [The Jurist Framework](#the-jurist-framework)
+- [Looking Forwawrd](#looking-forward)
+- [Conclusion](#conclusion)
+
 
 ---
 
