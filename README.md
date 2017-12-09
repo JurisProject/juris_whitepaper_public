@@ -26,7 +26,7 @@ Authors reachable on Telegraph
     - [Decentralized App Publishers](#decentralized-app-dapp-publishers)
     - [Jurists](#jurists)
 - [Contracts](#contracts)
-    - [Contracts](#contracts)
+    - [Contracts](#contracts-1)
     - [Alternative Dispute Resolution](#alternative-dispute-resolution)
     - [Smart Contracts](#smart-contracts)
 - [The Juris Platform for the Non-Technical](#the-juris-platform-for-the-non-technical)
