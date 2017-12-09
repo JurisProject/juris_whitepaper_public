@@ -2,7 +2,7 @@ WORKING DRAFT 0.1
 
 
 # Juris
-###A Judicial Oracle for Blockchain Smart Contracts
+### A Judicial Oracle for Blockchain Smart Contracts
 
 #### Justitia usquam ex nusquam
 
@@ -389,5 +389,3 @@ If this were on a centralized server, it would mean that Juris would be subject 
 
 Reputation (proof-of-judgement):
 A reputation chain is most valuable to people on the chain if it is visible to everyone. We could publish an open API, but that would incur high recurring security and attack resilience costs and Jurist would have to trust us that we would continue to make their proof-of-judgement public. By running reputation as a blockchain, we make it maximally available (forever) without having to deal with those costs. 
-# whitepaper
-# whitepaper
