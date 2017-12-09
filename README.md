@@ -32,8 +32,8 @@ Authors reachable on Telegraph
 - [The Juris Platform for the Non-Technical](#the-juris-platform-for-the-non-technical)
 - [Real World Use Cases](#real-world-use-cases)
 - [SCAFT](#scaft)
-- [The Jurist Framework](#the-jurist-framework)
-- [Looking Forwawrd](#looking-forward)
+- [The Juris Framework](#the-juris-framework)
+- [Looking Forward](#looking-forward)
 - [Conclusion](#conclusion)
 
 
