@@ -54,23 +54,23 @@ The breach was so significant as to drastically undermine investor confidence in
 Should the set of smart contracts that constituted the DAO been constructed with an adjudication platform available as a safeguard, as court systems safeguard non-smart contracts, the events that unfolded, ranging from the loss of market cap to the “Hard Fork” of Ethereum, may have been preventable. It is to avoid catastrophes like these, and engender a better confidence in favorable resolutions of smart contracts at large, that we propose **Juris**: a decentralized adjudication platform for blockchain smart contracts.
 
 ### Mission 
-Make “smart contracts” on all blockchains safe, robust, and human.
-Create an self-assembling global ecosystem of fair and thoughtful Jurists, run by the standard utility coin for fair dispute resolution, justice, and judgement.
-Create a trustless proof-of-judgement reputation chain.
-Make access to justice as efficient, effective, and accessible as the internet.
+To make “smart contracts” on all blockchains safe, robust, and human.
+To create an self-assembling global ecosystem of fair and thoughtful Jurists, run by the standard utility coin for fair dispute resolution, justice, and judgement.
+To create a trustless proof-of-judgement reputation chain.
+To make access to justice as efficient, effective, and accessible as the internet.
 
 --- 
 
 ## Value Proposition
 
 ### Contract Parties
-The Juris platform will allow CDK, Mediation Tools, and Adjudication Protocol users to add a layer of insurance to their smart contracts at minimal expense.   
+The Juris platform will allow CDK, Mediation Tools, and Adjudication Protocol users to add a layer of human-based insurance to their smart contracts at minimal expense.   
 
 ### Decentralized App (dApp) Publishers
-Dispute resolution is not the focus of most development teams, but can be a vital component of dApp function, especially when tokens are changing hands. Transaction disputes can be a sincere source of legal liability and thus existential risk. By integrating Juris as their default dispute resolution mechanism publishers can offload this risk -- for free.
+Dispute resolution is not the focus of most development teams, but can be a vital component of dApp function, especially when tokens are changing hands. Transaction disputes can be a sincere source of legal liability and thus existential risk for a fledgling application. By integrating Juris as their default dispute resolution mechanism, publishers can offload this risk -- for free.
 
 ### Jurists
-By joining the Juris platform’s pool of Jurists, legal professionals will increase the size of the market to which they are able to offer their services, while increasing the efficacy and value of time spent.
+By joining the Juris platform’s community of Jurists, legal professionals will increase the size of the market to which they are able to offer their services, while increasing the efficacy and value of time spent.
 
 ---
 
