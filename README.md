@@ -47,28 +47,30 @@ Contract disputes occur. Off the blockchain, we resolve contract disputes throug
 
 ### Calamity on the Blockchain
 
-In May 2016, the DAO, or “Decentralized Autonomous Organization” launched the largest crowdfunding campaign in history. Not just on the Ethereum Blockchain, where the code lived -- but ever. They raised $150 million dollars worth of Ether by the end of 28 days. But their success was short lived: on June 17th, 2016, we saw what happens when the intention behind a “Smart Contract” diverges from its codified implementation as several errors inside the smart contract code, written by the The DAO team, allowed a single bad actor to drain $50M worth of Ether from The DAO overnight. The remainder of the funds were saved only because of a group of “white hat” hackers who moved them to a friendly wallet. The breach was so significant as to drastically undermine investor confidence in Ether. Immediately following the DAO's theft, Ether's price cratered and lost nearly 63% of its value. Beyond just a price drop, the impact of the DAO was forceful enough to crack Ethereum into two entire separate blockchains: Ethereum, on which the DAO transactions were erased, and Ethereum Classic, where they were not.
+In May 2016, the DAO, or “Decentralized Autonomous Organization” launched the largest crowdfunding campaign in history. Not just on the Ethereum Blockchain -- but **ever**. They raised 150 million dollars worth of Ether by the end of 28 days. But, their success was short lived: on June 17th, 2016, we saw what happens when the intention behind a “Smart Contract” diverges from its codified implementation as several errors inside the smart contract code, written by the The DAO team, allowed a single bad actor to drain 50 million dollars worth of Ether from the DAO wallets overnight. The remainder of the funds were saved only because of a group of “white hat” hackers who moved them to a friendly wallet via the same exploit. 
 
-Should the set of smart contracts that constituted the DAO been constructed with an adjudication platform available as a safeguard, the events that unfolded, ranging from the loss of market cap to the “Hard Fork” of Ethereum, may have been preventable. It is to avoid catastrophes like these, and engender a better confidence in favorable resolutions of smart contracts at large, that we propose Juris: a decentralized adjudication platform for blockchain smart contracts.
+The breach was so significant as to drastically undermine investor confidence in Ether. Immediately following the DAO's theft, Ether's price cratered and lost nearly 63% of its value. Beyond just a price drop, the impact of the DAO was forceful enough to crack Ethereum into two entire separate blockchains: Ethereum, on which the DAO transactions were erased, and Ethereum Classic, where they were not. The split took place because this "hack" wasn't strictly illegal, or even really a hack. These bad actors didn't break anything, they noticed errors and exploited them to make the contract function in a way other than intended. The community was split on how to handle this: should they stick to the "four corners" of the contract terms, or stick to the intent of the smart contract code? After much debate there was a "hard fork" of the Ethereum Blockchain, to hew to the intent of the contract. This type of dispute is not new. This is contract law.
+
+Should the set of smart contracts that constituted the DAO been constructed with an adjudication platform available as a safeguard, as court systems safeguard non-smart contracts, the events that unfolded, ranging from the loss of market cap to the “Hard Fork” of Ethereum, may have been preventable. It is to avoid catastrophes like these, and engender a better confidence in favorable resolutions of smart contracts at large, that we propose **Juris**: a decentralized adjudication platform for blockchain smart contracts.
 
 ### Mission 
-Make “smart contracts” on all blockchains safe, robust, and human.
-Create an self-assembling global ecosystem of fair and thoughtful Jurists, run by the standard utility coin for fair dispute resolution, justice, and judgement.
-Create a trustless proof-of-judgement reputation chain.
-Make access to justice as efficient, effective, and accessible as the internet.
+To make “smart contracts” on all blockchains safe, robust, and human.
+To create an self-assembling global ecosystem of fair and thoughtful Jurists, run by the standard utility coin for fair dispute resolution, justice, and judgement.
+To create a trustless proof-of-judgement reputation chain.
+To make access to justice as efficient, effective, and accessible as the internet.
 
 --- 
 
 ## Value Proposition
 
 ### Contract Parties
-The Juris platform will allow CDK, Mediation Tools, and Adjudication Protocol users to add a layer of insurance to their smart contracts at minimal expense.   
+The Juris platform will allow CDK, Mediation Tools, and Adjudication Protocol users to add a layer of human-based insurance to their smart contracts at minimal expense.   
 
 ### Decentralized App (dApp) Publishers
-Dispute resolution is not the focus of most development teams, but can be a vital component of dApp function, especially when tokens are changing hands. Transaction disputes can be a sincere source of legal liability and thus existential risk. By integrating Juris as their default dispute resolution mechanism publishers can offload this risk -- for free.
+Dispute resolution is not the focus of most development teams, but can be a vital component of dApp function, especially when tokens are changing hands. Transaction disputes can be a sincere source of legal liability and thus existential risk for a fledgling application. By integrating Juris as their default dispute resolution mechanism, publishers can offload this risk -- for free.
 
 ### Jurists
-By joining the Juris platform’s pool of Jurists, legal professionals will increase the size of the market to which they are able to offer their services, while increasing the efficacy and value of time spent.
+By joining the Juris platform’s community of Jurists, legal professionals will increase the size of the market to which they are able to offer their services, while increasing the efficacy and value of time spent.
 
 ---
 
