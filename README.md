@@ -1,9 +1,7 @@
 <p align="center">
-	<b><a href="https://juriscoin.io" style="font-size:xx-large">Juris</a></b>
-	</br>
-	<strong>The Judicial Oracle for Smart Contracts
+	<img src="https://juriscoin.io/assets/img/logo.png" width=100/>
 </p>
-
+# [Juris](https://juriscoin.io)
 ---
 > *Justitia usquam ex nusquam*
 > 
