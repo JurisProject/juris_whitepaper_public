@@ -1,14 +1,18 @@
-# [Juris](https://juriscoin.io)
-
-#### A Judicial Oracle for Blockchain Smart Contracts
-
-#### Justitia usquam ex nusquam
+<p align="center">
+	<b><a href="https://juriscoin.io" style="font-size:xx-large">Juris</a></b>
+	</br>
+	<strong>The Judicial Oracle for Smart Contracts
+</p>
 
 ---
+> *Justitia usquam ex nusquam*
+> 
+> Justice everywhere, from nowhere
+
 
 [https://juriscoin.io](https://juriscoin.io)
 
-Authors reachable on Telegraph
+Authors reachable on Telegraph:
 
 [@SudoDemosthenes](https://t.me/SudoDemosthenes) [@YoungSeneca](https://t.me/YoungSeneca) [@LockeItUp](https://t.me/LockeItUp) 
 [@OdinGrimnir](https://t.me/OdinGrimnir) [@HammurabyteCode](https://t.me/HammurabyteCode) [@Sardonicu5](https://t.me/Sardonicu5)
@@ -143,8 +147,6 @@ Standardized libraries: from Effective Java, 2nd Edition, Item 47: KNOW AND USE 
 ---
 
 # The Reputation System
-
-
 
 ## The Juris Platform for the Non-Technical
 
