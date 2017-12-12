@@ -2,9 +2,8 @@
 	<img src="https://juriscoin.io/assets/img/logo.png" width=100/>
 </p>
 
----
 # [Juris](https://juriscoin.io)
----
+
 > *Justitia usquam ex nusquam*
 > 
 > Justice everywhere, from nowhere
