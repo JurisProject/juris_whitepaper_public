@@ -29,6 +29,7 @@ Authors reachable on Telegraph
     - [Contracts](#contracts-1)
     - [Alternative Dispute Resolution](#alternative-dispute-resolution)
     - [Smart Contracts](#smart-contracts)
+- [The Reputation System](#reputation)
 - [The Juris Platform for the Non-Technical](#the-juris-platform-for-the-non-technical)
 - [Real World Use Cases](#real-world-use-cases)
 - [SCAFT](#scaft)
@@ -140,6 +141,10 @@ Standardized libraries: from Effective Java, 2nd Edition, Item 47: KNOW AND USE 
 	“By using a standard library, you take advantage of the knowledge of the experts who wrote it and the experience of those who used it before you.”
 
 ---
+
+# The Reputation System
+
+
 
 ## The Juris Platform for the Non-Technical
 
