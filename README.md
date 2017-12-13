@@ -1,14 +1,17 @@
+<p align="center">
+	<img src="https://juriscoin.io/assets/img/logo.png" width=100/>
+</p>
+
 # [Juris](https://juriscoin.io)
 
-#### A Judicial Oracle for Blockchain Smart Contracts
+> *Justitia usquam ex nusquam*
+> 
+> Justice everywhere, from nowhere
 
-#### Justitia usquam ex nusquam
-
----
 
 [https://juriscoin.io](https://juriscoin.io)
 
-Authors reachable on Telegraph
+Authors reachable on Telegraph:
 
 [@SudoDemosthenes](https://t.me/SudoDemosthenes) [@YoungSeneca](https://t.me/YoungSeneca) [@LockeItUp](https://t.me/LockeItUp) 
 [@OdinGrimnir](https://t.me/OdinGrimnir) [@HammurabyteCode](https://t.me/HammurabyteCode) [@Sardonicu5](https://t.me/Sardonicu5)
@@ -29,6 +32,7 @@ Authors reachable on Telegraph
     - [Contracts](#contracts-1)
     - [Alternative Dispute Resolution](#alternative-dispute-resolution)
     - [Smart Contracts](#smart-contracts)
+- [The Reputation System](#reputation)
 - [The Juris Platform for the Non-Technical](#the-juris-platform-for-the-non-technical)
 - [Real World Use Cases](#real-world-use-cases)
 - [SCAFT](#scaft)
@@ -140,6 +144,8 @@ Standardized libraries: from Effective Java, 2nd Edition, Item 47: KNOW AND USE 
 	“By using a standard library, you take advantage of the knowledge of the experts who wrote it and the experience of those who used it before you.”
 
 ---
+
+# The Reputation System
 
 ## The Juris Platform for the Non-Technical
 
