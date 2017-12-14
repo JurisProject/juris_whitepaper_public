@@ -2,7 +2,7 @@
 
 Nearly all securities contracts use an arbitration clause, or agreement.
 
-The Simple Agreement for Future Tokens (SAFT) has quickly become a popular funding mechanism for pre-sale Token Generation Events. They are a tool for the early sale of the tokens that will be generated and used by technology protocols for which funding is needed. They require a certain degree of interpersonal trust between founders and investors, as they are essentially a promise to produce, and deliver something at a future date. But what if you want to fund a Cambodian team with a promising idea? Or an anonymous distributed team? Because of this trust component the SAFT is a less effective device for unproven teams or inexperienced investors. Luckily the system is already primed for a trustless solution, a Smart Contract for Future Tokens.
+The Simple Agreement for Future Tokens (SAFT) has quickly become a popular funding mechanism for pre-sale Token Generation Events. They are a tool for the early sale of the tokens that will be generated and used by technology protocols for which funding is needed. They require a certain degree of interpersonal trust between founders and investors, as they are essentially a promise to produce, and deliver something at a future date. But what if you want to fund a Cambodian team with a promising idea? Or an anonymous distributed team? Because of this trust component the SAFT is a less effective device for unproven teams or inexperienced investors. Luckily the system is already primed for a trust-less solution, a Smart Contract for Future Tokens.
 
 But this SCaFT could still be too rigid for the fast changing and fuzzy world of startups and crypto-technology. Let’s see why:
 
