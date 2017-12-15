@@ -1,8 +1,8 @@
 ### Table of Contents
 
-- [Abstract](#abstract)
-	- [Calamity on the Blockchain](#calamity-on-the-blockchain)
-	- [Mission](#mission)
+- [Abstract](abstract.md)
+	- [Calamity on the Blockchain](abstract.md/#calamity-on-the-blockchain)
+	- [Mission](abstract.md/#mission)
 - [Introduction](#introduction)
 - [Value Proposition](#value-proposition)
     - [Contract Parties](#contract-parties)
