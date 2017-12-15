@@ -1,6 +1,4 @@
-<p align="center">
-	<img src="https://juriscoin.io/assets/img/logo.png" width=100/>
-</p>
+![](/assets/Juris-Word-Logo.png)
 
 # [Juris](https://juriscoin.io)
 
