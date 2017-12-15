@@ -1,7 +1,6 @@
 # Summary
 
 * [ReadMe](README.md)
-* [Cover Page](cover.md)
 * [Introduction](introduction.md)
 * [Value Proposition](value-proposition.md)
 * [Contracts](contracts.md)
