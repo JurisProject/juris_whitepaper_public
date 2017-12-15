@@ -1,4 +1,6 @@
-# Summary
+# ![](/assets/Juris-Word-Logo.png)
+
+# Table of Contents
 
 * [ReadMe](README.md)
 * [Introduction](introduction.md)
@@ -15,4 +17,6 @@
 * [Looking Forward](looking-forward.md)
 * [APPENDIX](appendix.md)
 * [The Current State of The Art](current-state-of.md)
+
+
 
