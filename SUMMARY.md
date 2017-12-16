@@ -1,5 +1,4 @@
 # Summary
-![](/assets/Juris-Word-Logo.png)
 
 * [Authors](README.md)
 * [Introduction](introduction.md)

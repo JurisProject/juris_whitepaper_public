@@ -1,4 +1,4 @@
-
+![](/assets/Juris-Word-Logo.png)
 
 # [Juris](https://juriscoin.io)
 
