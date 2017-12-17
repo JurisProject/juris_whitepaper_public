@@ -13,4 +13,5 @@
 * [Juris Foundation Governance](governance.md)
 * [Conclusion](conclusion.md)
 * [Looking Forward](looking-forward.md)
+* [APPENDIX](appendix.md)
 
