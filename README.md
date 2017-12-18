@@ -1,7 +1,3 @@
-> _**Justitia usquam ex nusquam**_
->
-> **Justice everywhere, from nowhere**
-
 [https://juriscoin.io](https://juriscoin.io)
 
 Authors reachable on Telegraph:
