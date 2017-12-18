@@ -9,15 +9,3 @@ In May, 2016, pre DAO hack, Third Key Solutions, founded by Pamela Morgan and no
 #### Kleros
 
 Released as a concept whitepaper 2017, Kleros represents a more focused advance of the state of the art in the underlying reasoning of smart contract arbitration. Drawing its game theoretic underpinnings on Ethereum founder Vitalik Buterin’s initial proposals of SchellingCoin, Kleros proposed to incentivize arbiters to collaboratively vote as to reach truth, where truth (or a proxy of it) must emerge from a costly voting process and incentives apropos. Juris seeks to improve on several of the components outlined by Kleros. For example, game theoretical challenges emerge when voters are asked to vote how they think everyone else will vote. This problem, known as the Beauty Pageant Problem, remains unaddressed in both SchellingCoin and Kleros. Additionally, the top-down segmentation of the judicial system into sub-categories and sub-courts of dispute proposes an unnecessary quantity of operational overhead on the project, as does the selection of arbiters according to a cryptographic hash function. Kleros does present well an example of the use cases for a decentralized arbitration system, and outlines the attack risks against the system (bribery, surreptitiously controlling the majority of tokens, and a Sybil Attack).
-
-
-In-house Arbitration Systems
-Current State of art:
-CoinLancer
-Bounty0x
-Research one more
-Benefits of a platform solution:
-Arbiter pool
-Future development: data network effects in AI systems (the ‘why’ of this is the ‘why’ of all SaaS and PaaS
-Cost reduction
-Liability Management
