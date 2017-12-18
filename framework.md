@@ -1,18 +1,17 @@
 # The Juris Framework
 
-##Dispute Handling
-#### Evidence, Arguments, and Discussion
-
+### Evidence, Arguments, and Discussion
 When a dispute is triggered, the triggering party will be required by the Juris platform to include itemized claims, their desired resolution, and their initial arguments for the resolution. Additionally they will be able to provide any details or evidence regarding the case that may fall outside of the smart contract logs. All of these details will be attached to the smart contract through the CDK, and other parties will be notified that a dispute has been triggered.
 
 The counter-party to the dispute will have a designated amount of time to respond to the claims of the triggering party. They will be required to provide a direct response to each item of the claim, and their initial arguments for their preferred resolution. Here they will also be able to provide any additional details or evidence for their side that may fall outside of the smart contract logs. If there is no response from the counter-party the system will issue a default judgement in the favor of the claimant. 
 
 The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence, will take place via resolution processes outlined in paragraph 6.4.
 
+
 ### Smart Contract Logs
 One of the most critical peices of evidance provided to the Jurists will be the history of logs and transactions assiciated with the scart contract in question. This is especially true when a bug in the smart contract is what brought the contract to Juris. These logs will autmiatcally summarised and made available to Jurists as evidence.
 
-## Resolution Mechanisms
+## Three Resolution Mechanisms
 What do you do when you have a dispute with someone off the blockchain? First, you try to work it out amongst yourselves. If you can’t, you’d seek advice. If that advice doesn’t help you solve things, you’ll ask someone neutral to make the choice for you. Juris works the same way. 
 
 ### SELF (Self-Enforced Library Functions) Judgement
@@ -30,7 +29,6 @@ How Juris moves: The party(s) to the contract requesting the SNAP pay whatever t
 From the parties perspective: It’s a cheap way to get a fast judgement and a lot of input from different perspectives. 
 From the Jurists’ perspective: SNAP’s don’t pay very well, but they do offer a lot of opportunities to earn rep. Jurists are always on the hunt for a contract where their unique expertise will be decisive. Since everyone has to split the arbitration fee, it pays to look into disputes that no one else is looking at. You need to pay attention, vote reasonably, and contribute if you’re going to increase or maintain your standing. 
 How it works: All parties to a contract have 24 hours to submit an argument. Once they’re all in, any Jurist can see the arguments. To take a case a Jurist must vote based only on the arguments and submit a textual justification of their vote. After 24 hours, if the SNAP has had at least 5 votes the justifications are revealed to the jurists, and Discovery begins. The jurists can ask the parties any questions they have, vote on the questions and comment on the parties responses (very much like a Reddit AMA). By the end of discovery all jurists must vote again (or their opening vote will carry over and they will lose reputation). Then, the collective opinion phase begins, lasting 36 hours. Using the git source control system, Jurists collaboratively author an opinion for each position that received at least one vote. Based on the vote and opinion, the parties can decide to self mediate an outcome, or appeal for a PANEL. 
-
 
 The format allows parties to provide opening arguments while also allowing the jurists to directly question the parties. This is designed to be a fusion of the anglo-american adversarial format with the east asian inquisitorial format.
 
