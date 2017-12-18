@@ -1,5 +1,3 @@
-![](/assets/Juris-Word-Logo@0,25x.png)
-
 > _**Justitia usquam ex nusquam**_
 >
 > **Justice everywhere, from nowhere**
