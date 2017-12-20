@@ -10,7 +10,7 @@ The concept of measurable (or computable) trust has been studied extensively wit
 The context dependence of trust metrics means that it's exceedingly difficult to directly map existing trust metrics to new systems, while retaining the original metric's meaning.
 
 ### Reputation Systems
-
+A *reputation system* is a program that enables a community to collaboratively determine the trustworthiness of its members. More formally, a reputation system defines a trust metric, provides the framework for computing that metric, and calls the metric *reputation*. 
 ## The Repchain
 
 Broadly, the Juris repchain should have the following qualities:
