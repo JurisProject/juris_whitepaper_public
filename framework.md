@@ -47,8 +47,8 @@ From the Jurists’ perspective: SNAP’s don’t pay very well, but they do off
 
   
 **How it works:** All parties to a contract have 24 hours to submit an argument. Once they’re all in, any Jurist can see the arguments. To take a case a Jurist must vote based only on the arguments and submit a textual justification of their vote. After 24 hours, if the SNAP has had at least 5 votes the justifications are revealed to the jurists, and Discovery begins. The jurists can ask the parties any questions they have, vote on the questions and comment on the parties responses \(very much like a Reddit AMA\). By the end of discovery all jurists must vote again \(or their opening vote will carry over and they will lose reputation\). Then, the collective opinion phase begins, lasting 36 hours. Using the git source control system, Jurists collaboratively author an opinion for each position that received at least one vote. Based on the vote and opinion, the parties can decide to self mediate an outcome, or appeal for a PANEL.
->>>>>>> 52f16e8cafe7943cd1bcaab31557c4b8a66feb04
 
+  
 The format allows parties to provide opening arguments while also allowing the jurists to directly question the parties. This is designed to be a fusion of the anglo-american adversarial format with the east asian inquisitorial format.
 
 This VOTE --&gt; JUSTIFY --&gt; DISCUSS --&gt; VOTE → JUSTIFY model is based on the Delphi Method of collective decision making. The Delphi Method has been shown to be very effective at surfacing hidden profiles while producing judgements that have broad support and alignment with facts.
