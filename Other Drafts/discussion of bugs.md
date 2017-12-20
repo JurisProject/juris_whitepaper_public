@@ -1,6 +1,6 @@
 ## Integrating Juris
 
-To help us catch bugs in smart contracts early and often, JurisCoin will leverage several strategies that have emerged in the field of software development. Before we discuss how JurisCoin facilitates the production of safe and bug-free smart contracts, let’s enumerate some of the most well-known approaches to limiting bugs:
+To help us catch bugs in smart contracts early and often, JRS will leverage several strategies that have emerged in the field of software development. Before we discuss how JRS facilitates the production of safe and bug-free smart contracts, let’s enumerate some of the most well-known approaches to limiting bugs:
 
 **Static typing:** statically typed languages can provide certain guarantees on correctness and safety if they pass a static type checker.
 

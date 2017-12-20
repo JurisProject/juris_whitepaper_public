@@ -8,4 +8,4 @@ Dispute resolution is not the core focus of any dApp publisher, but is a vital c
 The Juris platform will allow CDK, Mediation Tools, and Adjudication Protocol users to add a layer of human-based risk mitigation to their smart contracts at minimal expense.
 
 ### Jurists
-By joining the Juris platform’s community of Jurists, legal professionals will increase the size of the market to which they are able to offer their services, while increasing the efficacy of the system, the value of time spent, and in turn their own JurisCoin holdings.
+By joining the Juris platform’s community of Jurists, legal professionals will increase the size of the market to which they are able to offer their services, while increasing the efficacy of the system, the value of time spent, and in turn their own JRS holdings.
