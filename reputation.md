@@ -14,51 +14,58 @@ A *reputation system* is a program that enables a community to collaboratively d
 
 ## The Repchain
 
-Broadly, the Juris repchain should have the following qualities:
+Broadly, the Juris repchain should have the following qualities.
 
-1. Rep gauges the degree to which a person is capable of effectively arbitrating cases
-2. Rep must be readily calculable, deterministic, and open
-3. Earning rep legitimately should be straightforward, although difficult
-4. Earning rep illegitimately should be so difficult as to be effectively impossible
-5. Rep must be non-transferable and unsusceptible to commodification
-6. The system must have a sensible incentive structure: arbitrators are rewarded for sound judgement and effective prosecution, and punished for poor judgement or bad behavior
-7. The system should be resistant to malicious actors, sybil attacks, and abuse through collusion
-8. After initialization, the system should be fully autonomous and decentralized
+### Useful Proxy
+Rep gauges the degree to which a person is capable of effectively arbitrating cases.
 
-From each of these qualities we derive requirements which, when viewed together, lead naturally to the technical solution of an off-platform blockchain with rep reified as a crypto token.
-
-### Ability to effectively arbitrate
 *An individual's capacity to effectively arbitrate cases*—our trust metric. Rep is a proxy that gauges this capacity.
 
-### Readily calculable, deterministic, and open
-*Readily calculable*—should not be conflated with 'computationally or algorithmically easy.' Instead, we mean *right-sized for the execution engine*. If the execution engine is Ethereum, then 'readily calculable' does translate to 'computationally simple,' simply due to the cost of computing on the Ethereum platform.
+### Verifiable
+Rep must be readily calculable, deterministic, and open.
 
-*Deterministic*—given a history of transactions, reputation for an individual at time *t* always resolves to the same score.
+*Readily calculable*—should not be conflated with "computationally or algorithmically simple." Instead, we mean **right-sized for the execution engine**. If the execution engine is Ethereum, then "readily calculable" does translate to "computationally simple" due to the cost of computing on the Ethereum platform.
 
-*Open*—log of rep-changing transactions, and the algorithm to compute rep, are open and free. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores.
+*Deterministic*—repeatable rep computations. Starting from the same base state, the rep algorithm will always compute the same rep for a given point in the rep transaction log.
 
-### Earning rep legitimately
-- Straightforward: a person's knowledge of the *repchain system* should not improve their ability to earn rep; only their ability to effectively arbitrate should
-- define "legitimate:" one person, committed to justice, knowledgable, and verified by their peers
-- difficult: straightforward != easy. implies significant human interaction
+*Open*—rep algorithm and log of rep-changing transactions are both public. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores.
 
-### Earning rep illegitimately
-- Define illegitimately: definition by negation of the above
+### Achievable When Warranted
+Earning rep legitimately should be straightforward, although difficult.
 
-### Non-transferrable
+*Straightforward*—knowledge of the repchain's implementation is neither necessary nor advantageous for earning rep.
+
+*Legitimate*—an individual who, using a single identity, is committed to resolving smart contract disputes through the fair and impartial application of knowledge and judgement, is **earning rep legitimately**.
+
+*Difficult*—earning rep requires considerable human action.
+
+### Unachievable When Wot Warranted
+Earning rep illegitimately should be so difficult as to be effectively impossible.
+
+*Illegitimate*—definition by negation. An individual using multiple identities, or multiple individuals using a single identity, who manipulate the outcome of contract disputes through unfair and/or biased application of knowledge and judgement, is/are **earning rep illegitimately**.
+
+### Identity-Based
+Rep must be non-transferrable and unsusceptible to commodification.
+
 - Down to the smallest denomination, rep is permanently tied to one 'account'
 - unsusceptible to commodification: rep cannot be earned quid pro quo. barriers to transferring an account from one entity to another (unresolved?)
 
-### Sensible incentive structure
+### Promotes Cooperation
+The system must have a sensible incentive structure: arbitrators are rewarded for sound judgement and effective prosecution, and punished for poor judgement or bad behavior.
+
 - implies that *quality* of action more important than *quantity* of action; therefore, the system needs quality metrics
 - punished: reputation can be docked
 
-### Resistant to attacks
+### Attack-Resistant
+The system should be resistant to malicious actors, sybil attacks, and abuse through collusion.
+
 - malicious actors: system should be decentralized, both correctness and incorrectness should be provable
 - sybil attacks: creating many accounts must be extremely difficult. it must always more effective to concentrate rep in one account instead of many.
 - collusion: just as one person with many accounts less effective than same person with one account, many legitimate accounts with low rep must be less impactful than one legitimate account with high rep
 
-### Autonomous and decentralized
+### Self-Perpetuating
+After initialization, the system should be fully autonomous and decentralized.
+
 - computed by a computer (duh)
 - decentralized: implies some kind of peer-to-peer
 - autonomous: (maybe not? initial governance is not autonomous)
