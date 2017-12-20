@@ -20,49 +20,48 @@ What do you do when you have a dispute with someone off the blockchain? First, y
 
 **Problem it solves:** Something has gone wrong with a smart contract. All parties to the contract agree what should happen next. This could be caused by a bug, a broken oracle feed, or any other unforeseen event.
 
-  
 **How Juris moves:** No Juris changes hands when the self-mediation toolkit is activated. The parties “pre-paid” for them when they signed the contract.
 
-  
 **From the parties perspective:** This is a free and fast way to amicably resolve a misbehaving contract.
 
-  
 **From the Jurists’ perspective:** This keeps trivial business out of the docket.
 
-
-**How it works:** Often, people are able to solve their own disputes. In the case of software bug, or any time the parties agree what the contract should do, but that intended behavior is not the contract’s expected behavior, the parties just need the tools to force some very specific behavior out of the contract.  
-For these users, we’re building a package of self mediation tools which implement some basic operations \(void the contract, give all assets to party A, ect\). These tools will be totally open source and free.
-
+**How it works:** Often, people are able to solve their own disputes. In the case of software bug, or any time the parties agree what the contract should do, the parties just need the tools to force some very specific behavior out of the contract. For these users, we’re building a package of self mediation tools which implement some basic operations \(void the contract, give all assets to party A, etc\). These tools will be totally open source and free.
 
 ### SNAP \(Simple Neutral Arbitrator Poll\) Judgement
 
-**Problem it solves:** If parties believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they should opt for a SNAP.
+**Problem it solves:** If parties are unable to settle on an outcome on their own, and believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they should opt for a SNAP.
 
-  
-**How Juris moves:** The party\(s\) to the contract requesting the SNAP pay whatever they want to activate the SNAP \(above a minimum\). 5% of that fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who vote in the SNAP.
+**How Juris moves:** The party\(s\) to the contract requesting the SNAP pay whatever they want to activate the SNAP \(above a minimum\). 5% of that fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who take part in the SNAP.
 
-  
-**From the parties perspective:** It’s a cheap way to get a fast judgement and a lot of input from different perspectives.  
-From the Jurists’ perspective: SNAP’s don’t pay very well, but they do offer a lot of opportunities to earn rep. Jurists are always on the hunt for a contract where their unique expertise will be decisive. Since everyone has to split the arbitration fee, it pays to look into disputes that no one else is looking at. You need to pay attention, vote reasonably, and contribute if you’re going to increase or maintain your standing.
+**From the parties perspective:** It’s a cheap way to get a fast judgement and a lot of input from different perspectives. It may have the power to quickly resolve a negotiation stalemate.
 
-  
-**How it works:** All parties to a contract have 24 hours to submit an argument. Once they’re all in, any Jurist can see the arguments. To take a case a Jurist must vote based only on the arguments and submit a textual justification of their vote. After 24 hours, if the SNAP has had at least 5 votes the justifications are revealed to the jurists, and Discovery begins. The jurists can ask the parties any questions they have, vote on the questions and comment on the parties responses \(very much like a Reddit AMA\). By the end of discovery all jurists must vote again \(or their opening vote will carry over and they will lose reputation\). Then, the collective opinion phase begins, lasting 36 hours. Using the git source control system, Jurists collaboratively author an opinion for each position that received at least one vote. Based on the vote and opinion, the parties can decide to self mediate an outcome, or appeal for a PANEL.
+**From the Jurists’ perspective:** SNAP’s don’t pay very well, but they do offer a lot of opportunities to earn reputation. Jurists are always on the hunt for a contract where their unique expertise will be decisive. Since everyone has to split the arbitration fee, it pays to look into disputes that no one else is looking at. You need to pay attention, vote reasonably, and contribute if you’re going to increase or maintain your standing.
 
-  
-The format allows parties to provide opening arguments while also allowing the jurists to directly question the parties. This is designed to be a fusion of the anglo-american adversarial format with the east asian inquisitorial format.
+**How it works:** After a contract has executed, parties to the contract \(the “Disputants”\) have 24 hours, \(the “Initiation Opportunity”\) to initiate a SNAP, this time period can also be extended by mutual agreement, or via the CDK when the contract is  created. At the moment that the SNAP is initiated \(the “Initiation Date”\), the Juris plugin collects and freezes all transaction logs, contract execution logs, contract state, and the contract code itself \(together, the “Hard Evidence”\). From the Initiation Date, Disputants have 24 hours \(the “Preparation”\) to compose a document outlining their dispute \(the “Case Brief”\). A Case Brief contains itemized \(e.g. bulleted\) written arguments \(the “Formal Complaint”\), and optionally itemized additional facts \(the “Supplementary Evidence”\) the Disputant would like to present during the judgement. At the close of Preparation \(the “Publication Date”\), the Hard Evidence, and optionally the Case Briefs \(at the discretion of the Disputations\), are posted to JRS Token holders publicly \(the “Case Publication”\) for a 24 hour period \(the “Jury Selection”\) for arbitrators to review.
 
-This VOTE --&gt; JUSTIFY --&gt; DISCUSS --&gt; VOTE → JUSTIFY model is based on the Delphi Method of collective decision making. The Delphi Method has been shown to be very effective at surfacing hidden profiles while producing judgements that have broad support and alignment with facts.
+Arbitrators may access any Case Publication without obligation to participate in the case, but must pass a Captcha test \(or equivalent\) \[R\] before being granted access to the Case Publication. If an individual chooses to join a SNAP as a participating arbitrator \(a “Jurist”\) after reading a Case Publication, that person must cast their initial vote \(the “Independent Vote”\) \[R\] using only the information in the Case Publication. When casting their Independent Vote, an arbitrator must cite justification \(the “Independent Evidence Selection”\) from at least one of \(a\) an item of Hard Evidence, \(b\) an item of a Formal Complaint, or \(c\) an item of Supplementary Evidence \(together and separately, the “Case Publication Items”\). \[R if any item in a Jurist’s Supporting Evidence Selection is cited in the winning case opinion\]. As part of the Independent Judgement, an arbitrator must also provide a short \(255 characters or less\) summary of their opinion \(the “Independent Opinion”\). \[R if the Independent Opinion is cited in the winning case opinion\]. Together, the Independent Vote, Supporting Evidence Selection, and Independent Opinion comprise the arbitrator’s individual analysis \(the “Independent Judgement”\) of the case. After submitting the Independent Judgement, an arbitrator formally becomes a Jurist for the given SNAP.
+
+During Jury Selection, all Independent Judgements remain hidden from both the Disputants and the Jurists. However, the number of Jurists that have joined the SNAP is displayed publically. At the end of Jury Selection \(the “Trial Date”\), the Case Publication is taken down, jury selection ceases, and a 24 hour window for open arguments begins \(the “Trial”\).
+
+On the Trial Date, all Jurists and Disputants \(together and severally, the “Trial Participants”\) are made privy to the SNAP’s tally of votes, the tally of each Supporting Evidence Selection, and the Independent Opinions, all of which are anonymized. During the Trial, Jurists make material contributions to the arbitration \(the “Trial Artifacts”\) in the form of: questions posed for other Trial Participants \[R\]; submission of general comments \[R\]; citations of case history \[R, additional R if citation is used in the winning case opinion\]; comments on any item in the Case Publication \[R\]; written responses to any of the above and to other written responses \[R\]; and atomic responses \(up/down vote\) to any of the above.
+
+After 24 hours from the Trial Date, the Trial ends \(the “Trial Close Date”\), at which point interaction between and among all Trial Participants ceases for a period of 12 hours \(the “Deliberation”\). In Deliberation, Jurists have an opportunity to independently review the Case Publication and all Trial Artifacts. After Deliberation, each Jurist must cast a final vote \(the “Informed Vote”\) \[R\]; select one or more pieces of supporting evidence \(the “Informed Evidence Selection”\) from any Case Publication Item or Trial Artifact \[R if selected by at least one other Jurist\]; and compose a written summary of their opinion \(the “Informed Opinion”\) \[R\], no longer than 500 characters. Together, the Informed Vote, Informed Evidence Selection, and Informed Opinion comprise the Jurist’s Informed Judgement. During Deliberation, the contents of the Informed Judgements remain hidden from all Trial Participants.
+
+At the end of Deliberation \(the “Judgement Date”\), all of the Informed Judgements are closed for modification, and each Jurist is immediately placed into a group of peers \(a “Consensus Group”\) who voted in favor of the same Disputant. Each Consensus Group is firewalled from both the other Consensus Group and from the Disputant. Starting from the Judgement Date, each Consensus Group has 24 hours \(the “Opinion Composition”\) to confer amongst its members and write an opinion on their ruling \(the “Final Opinion”\). The Jurist with the highest reputation within an individual Consensus Group is automatically selected as the leader of their cohort \(the “Lead Opinion Writer”\). Optionally, the default Lead Opinion Writer may appoint \[R\] another Jurist within their Consensus Group as the Lead Opinion Writer \[R to the appointee\].
+
+During Opinion Composition, each Consensus Group has access to the Case Publication, its member Jurists’ Independent Judgements, all of the Trial Artifacts, its member Jurists’ Informed Judgements, and the tally of Informed Votes for each Consensus Group. The Jurists of a Consensus Group collaborate during Opinion Composition by making material contributions \(the “Opinion Artifacts”\) \[R\] in the same form as Trial Artifacts. Before the end of the Opinion Composition, each Consensus Group compiles these Opinion Artifacts into a Final Opinion.
+
+At the end of Opinion Composition, communication between all Trial Participants ceases, and the Final Opinions from both Consensus Groups are delivered to all Trial Participants \(the “Verdict”\).
 
 ### PANEL \(Peremptory Agreement for Neutral Expert Litigation\) Judgement
 
 **Problem it solves:** When a dispute is complex or there is a lot at stake, you want a small number of people to take their time examining all of the evidence, and hearing all of the arguments.
 
-  
 **How Juris moves:** The party\(s\) to the contract requesting the PANEL pay the market rate to convene the panel. 5% of that fee goes to the Foundation,  the rest is split equally amongst the Jurists on the panel.  
 From the parties perspective: For complex disputes that require deep attention of the most skilled jurists, it’s worth paying for a PANEL.
 
-  
 **From the Jurists’ perspective:** This is where the real money is. But in order to get put on a panel, you need to have very high rep. All of that work spent in SNAP’s is paying off here!
 
-  
 **How it works:** The party\(s\) requesting the PANEL sends a PANEL transaction with JRS attached into the contract. All of the assets in the contested contract are moved into escrow. Based on the domain specialties marked on the arbitration agreement, a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
+
