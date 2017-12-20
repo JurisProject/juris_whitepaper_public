@@ -7,7 +7,6 @@ The counter-party to the dispute will have a designated amount of time to respon
 
 The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence, will take place via resolution processes outlined in paragraph 6.4.
 
-
 ### Smart Contract Logs
 One of the most critical peices of evidance provided to the Jurists will be the history of logs and transactions assiciated with the scart contract in question. This is especially true when a bug in the smart contract is what brought the contract to Juris. These logs will autmiatcally summarised and made available to Jurists as evidence.
 
@@ -22,7 +21,6 @@ From the Jurists’ perspective: This keeps trivial business out of the docket.
 How it works: Often, people are able to solve their own disputes. In the case of software bug, or any time the parties agree what the contract should do, but that intended behavior is not the contract’s expected behavior, the parties just need the tools to force some very specific behavior out of the contract. 
 For these users, we’re building a package of self mediation tools which implement some basic operations (void the contract, give all assets to party A, ect). These tools will be totally open source and free. 
 
-
 ### SNAP (Simple Neutral Arbitrator Poll) Judgement
 Problem it solves: If parties believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they should opt for a SNAP.
 How Juris moves: The party(s) to the contract requesting the SNAP pay whatever they want to activate the SNAP (above a minimum). 5% of that fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who vote in the SNAP. 
@@ -33,7 +31,6 @@ How it works: All parties to a contract have 24 hours to submit an argument. Onc
 The format allows parties to provide opening arguments while also allowing the jurists to directly question the parties. This is designed to be a fusion of the anglo-american adversarial format with the east asian inquisitorial format.
 
 This VOTE --> JUSTIFY --> DISCUSS --> VOTE → JUSTIFY model is based on the Delphi Method of collective decision making. The Delphi Method has been shown to be very effective at surfacing hidden profiles while producing judgements that have broad support and alignment with facts.  
-
 
 ### PANEL (Peremptory Agreement for Neutral Expert Litigation) Judgement
 Problem it solves: When a dispute is complex or there is a lot at stake, you want a small number of people to take their time examining all of the evidence, and hearing all of the arguments. 
