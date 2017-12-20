@@ -16,7 +16,7 @@ A *reputation system* is a program that enables a community to collaboratively d
 
 Broadly, the Juris repchain should have the following qualities:
 
-1. Rep indicates the degree to which a person is capable of effectively arbitrating cases
+1. Rep gauges the degree to which a person is capable of effectively arbitrating cases
 2. Rep must be readily calculable, deterministic, and open
 3. Earning rep legitimately should be straightforward, although difficult
 4. Earning rep illegitimately should be so difficult as to be effectively impossible
@@ -28,13 +28,14 @@ Broadly, the Juris repchain should have the following qualities:
 From each of these qualities we derive requirements which, when viewed together, lead naturally to the technical solution of an off-platform blockchain with rep reified as a crypto token.
 
 ### Ability to effectively arbitrate
-- Take into account a person's skillset (programmer, JD, etc)
-- Prior performance evaluated w.r.t satisfactory case resolution, rather than popularity
+*An individual's capacity to effectively arbitrate cases*—our trust metric. Rep is a proxy that gauges this capacity.
 
 ### Readily calculable, deterministic, and open
-- Readily calculable: either computationally simplistic, or executed on a platform that can handle the complexity
-- Same data + same computations always produce the same rep score, for any agent performing those computations
-- Open: if anyone can perform the computation, then anyone must be able to access the data, as well as the algorithm
+*Readily calculable*—should not be conflated with 'computationally or algorithmically easy.' Instead, we mean *right-sized for the execution engine*. If the execution engine is Ethereum, then 'readily calculable' does translate to 'computationally simple,' simply due to the cost of computing on the Ethereum platform.
+
+*Deterministic*—given a history of transactions, reputation for an individual at time *t* always resolves to the same score.
+
+*Open*—log of rep-changing transactions, and the algorithm to compute rep, are open and free. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores.
 
 ### Earning rep legitimately
 - Straightforward: a person's knowledge of the *repchain system* should not improve their ability to earn rep; only their ability to effectively arbitrate should
