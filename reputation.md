@@ -1,6 +1,11 @@
 # The Reputation System
 
-If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable individuals. This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment? We propose a trust framework—a *reputation system*—tightly integrated with the Juris platform as a solution to this challenge.
+If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable individuals. This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment? As a solution to this challenge, we propose a trust framework—a *reputation system*—tightly integrated with the Juris platform, but executed as its own blockchain. In this chapter we explore the existing literature on similar systems, before describing the Juris Reputation Blockchain in detail.
+
+## Background
+Before diving into the technical details of the Juris Reputation System,
+### Trust Metrics
+The concept of measurable (or computable) trust has been studied extensively
 
 Broadly, the Juris Reputation System should have the following qualities:
 
