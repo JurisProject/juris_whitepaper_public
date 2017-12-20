@@ -10,21 +10,57 @@ The concept of measurable (or computable) trust has been studied extensively wit
 The context dependence of trust metrics means that it's exceedingly difficult to directly map existing trust metrics to new systems, while retaining the original metric's meaning.
 
 ### Reputation Systems
-A *reputation system* is a program that enables a community to collaboratively determine the trustworthiness of its members. More formally, a reputation system defines a trust metric, provides the framework for computing that metric, and calls the metric *reputation*. 
+A *reputation system* is a program that enables a community to collaboratively determine the trustworthiness of its members. More formally, a reputation system defines a trust metric, provides the framework for computing that metric, and calls the metric *reputation*.
+
 ## The Repchain
 
 Broadly, the Juris repchain should have the following qualities:
 
-- Reputation should be a reliable proxy for a person's ability to effectively arbitrate cases
-- Reputation scores must be readily calculable, deterministic, and open
-- Earning reputation legitimately should be straightforward, although difficult
-- Earning reputation illegitimately should be so difficult as to be effectively impossible
-- Reputation must be non-transferable and unsusceptible to commodification
-- The system must have a sensible incentive structure: arbitrators are rewarded for sound judgement and effective prosecution, and punished for poor judgement or bad behavior
-- The system should be resistant to malicious actors, sybil attacks, and abuse through collusion
-- After initialization, the system should be fully autonomous and decentralized
+1. Rep indicates the degree to which a person is capable of effectively arbitrating cases
+2. Rep must be readily calculable, deterministic, and open
+3. Earning rep legitimately should be straightforward, although difficult
+4. Earning rep illegitimately should be so difficult as to be effectively impossible
+5. Rep must be non-transferable and unsusceptible to commodification
+6. The system must have a sensible incentive structure: arbitrators are rewarded for sound judgement and effective prosecution, and punished for poor judgement or bad behavior
+7. The system should be resistant to malicious actors, sybil attacks, and abuse through collusion
+8. After initialization, the system should be fully autonomous and decentralized
 
-The technical implementation of Juris' reputation system will be an off-platform blockchain, with reputation (or *rep*) reified as a crypto token.
+From each of these qualities we derive requirements which, when viewed together, lead naturally to the technical solution of an off-platform blockchain with rep reified as a crypto token.
+
+### Ability to effectively arbitrate
+- Take into account a person's skillset (programmer, JD, etc)
+- Prior performance evaluated w.r.t satisfactory case resolution, rather than popularity
+
+### Readily calculable, deterministic, and open
+- Readily calculable: either computationally simplistic, or executed on a platform that can handle the complexity
+- Same data + same computations always produce the same rep score, for any agent performing those computations
+- Open: if anyone can perform the computation, then anyone must be able to access the data, as well as the algorithm
+
+### Earning rep legitimately
+- Straightforward: a person's knowledge of the *repchain system* should not improve their ability to earn rep; only their ability to effectively arbitrate should
+- define "legitimate:" one person, committed to justice, knowledgable, and verified by their peers
+- difficult: straightforward != easy. implies significant human interaction
+
+### Earning rep illegitimately
+- Define illegitimately: definition by negation of the above
+
+### Non-transferrable
+- Down to the smallest denomination, rep is permanently tied to one 'account'
+- unsusceptible to commodification: rep cannot be earned quid pro quo. barriers to transferring an account from one entity to another (unresolved?)
+
+### Sensible incentive structure
+- implies that *quality* of action more important than *quantity* of action; therefore, the system needs quality metrics
+- punished: reputation can be docked
+
+### Resistant to attacks
+- malicious actors: system should be decentralized, both correctness and incorrectness should be provable
+- sybil attacks: creating many accounts must be extremely difficult. it must always more effective to concentrate rep in one account instead of many.
+- collusion: just as one person with many accounts less effective than same person with one account, many legitimate accounts with low rep must be less impactful than one legitimate account with high rep
+
+### Autonomous and decentralized
+- computed by a computer (duh)
+- decentralized: implies some kind of peer-to-peer
+- autonomous: (maybe not? initial governance is not autonomous)
 
 ## Earning Reputation
 This is the section that will be of the greatest interest to Jurists. Earning rep keeps you in good standing and earning a lot of rep makes you elev
