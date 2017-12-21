@@ -56,13 +56,17 @@ At this point the disputing parties are again given access to the CDK resolution
 
 ### PANEL \(Peremptory Agreement for Neutral Expert Litigation\) Judgement
 
-**Problem it solves:** When a dispute is complex or there is a lot at stake, you want a small number of people to take their time examining all of the evidence, and hearing all of the arguments.
+**Problem it solves:** While the SNAP procedure provides assistance is dispute resolution, it does not rise to the level of due process required for a binding judgement under United Nations standards. When a dispute is complex, there is a lot at stake, and the decision if final, you want small number of people to take their time examining all of the evidence, and hearing all of the arguments.
 
-**How Juris moves:** The party\(s\) to the contract requesting the PANEL pay the market rate to convene the panel. 5% of that fee goes to the Foundation,  the rest is split equally amongst the Jurists on the panel.
+**How Juris moves:** The party\(s\) to the contract requesting the PANEL pay the market rate to convene a panel. 5% of that fee goes to the Foundation,  the rest is split equally amongst the Jurists on the panel at the close of proceedings.
 
-**From the parties perspective:** For complex disputes that require deep attention of the most skilled jurists, it’s worth paying for a PANEL.
+**From the parties perspective:** For complex disputes that require deep attention of the most skilled jurists, or to break a deadlock with a final binding decision, it’s worth paying for a PANEL.
 
-**From the Jurists’ perspective:** This is where the real money is. But in order to get put on a panel, you need to have very high rep. All of that work spent in SNAP’s is paying off here!
+**From the Jurists’ perspective:** This is more labor intensive, but this is where the real money is, as fees are higher and split among fewer Jurists. In order to get put on a panel, you need to have High Jurist standing. All of that work spent in SNAP’s is paying off here!
 
-**How it works:** The party\(s\) requesting the PANEL sends a PANEL transaction with JRS attached into the contract. All of the assets in the contested contract are moved into escrow. Based on the domain specialties marked on the arbitration agreement, a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
+**How it works: **Similar to normal court systems, this is considered an escalation. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and 
+
+
+
+The party\(s\) requesting the PANEL sends a PANEL transaction with JRS attached into the contract. All of the assets in the contested contract are moved into escrow. Based on the domain specialties marked on the arbitration agreement, a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
 
