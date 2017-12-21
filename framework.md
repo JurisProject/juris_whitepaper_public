@@ -1,5 +1,13 @@
 # The Juris Framework
 
+### Dispute Triggers
+
+All disputes will be triggered manually, and the ability to trigger a dispute will be limited to a direct party to the contract, or other parties to which the ability has been delegated via the CDK at the time of contract creation. Dispute triggers will be accessible only to these parties through the CDK, and via the Juris Dashboard. The Juris Foundation, its agents, arbitrators, and Jurists are unable to trigger a dispute on behalf of another party.
+
+### Contract Lock
+
+The moment that a dispute is triggered the CDK code freezes smart contract processes. The contract code does not proceed forward. If the contract is a public contract, or a contract with a massive number of parties, and a previously agreed upon dispute threshold is reached; processes are frozen and additional parties are unable to access the contract until the disputes are resolved.
+
 ### Evidence, Arguments, and Discussion
 
 When a dispute is triggered, the triggering party will be required by the Juris platform to include itemized claims, their desired resolution, and their initial arguments for that resolution \(together, the "Formal Complaint."\) Additionally they will be able to provide any details or evidence regarding the case that may fall outside of the smart contract logs \("Supplementary Evidence."\) All of these details will be attached to the smart contract through the CDK, and will follow the case through the Juris system.
@@ -8,9 +16,13 @@ The counter-party to the dispute will have a designated amount of time to respon
 
 The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence, will take place via resolution processes outlined below.
 
+### Holding Wallets
+
+As soon as a Formal Complaint is filed, the CDK code generates a neutral blockchain wallet address into which the funds associated with the contract are moved. The funds can only be released from this wallet via the Juris CDK, and the use of one of the available resolution mechanisms. The neutral wallet address is maintained internally by the CDK code within the smart contract itself and if not known or accessible to contract parties, the Juris Foundation, or Jurists involved at later dates.  
+
 ### Smart Contract Logs \("Hard Evidence"\)
 
-One of the most critical pieces of evidence provided to the Jurists will be the history of logs and transactions associated with the smart contract in question. This is especially true when a bug in the smart contract is what brought the contract to Juris. At the moment that the dispute is initiated the Juris plugin collects and freezes all transaction logs, contract execution logs, contract state, and the contract code itself. These logs will be automatically summarized and made available to Jurists as evidence.
+One of the most critical pieces of evidence provided to the Jurists will be the history of logs and transactions associated with the smart contract in question. This is especially true when a bug in the smart contract is what lead to Juris dispute resolution. At the moment that the dispute is initiated the Juris CDK collects and freezes all transaction logs, contract execution logs, contract state, and the contract code itself. These logs will be automatically summarized and made available to Jurists as evidence.
 
 ## Three Resolution Mechanisms
 
@@ -18,7 +30,7 @@ One of the most critical pieces of evidence provided to the Jurists will be the 
 
 **Problem it solves:** Something has gone wrong with a smart contract. All parties to the contract agree what should happen next. This could be caused by a bug, a broken oracle feed, or any other unforeseen event. Whether right away, or after brief negotiation the parties have a solution and they agree that the solution is fair.
 
-**How Juris moves:** No Juris changes hands when the self-mediation toolkit is activated. The parties “pre-paid” for them when they signed the contract and attached their JRS.
+**How Juris moves:** No Juris changes hands when the self-mediation toolkit is activated, but all funds in the initial contract are locked. The parties “pre-paid” for them when they signed the contract and attached their JRS.
 
 **From the parties perspective:** This is a free and fast way to amicably resolve a misbehaving contract.
 
@@ -64,9 +76,11 @@ At this point the disputing parties are again given access to the CDK resolution
 
 **From the Jurists’ perspective:** This is more labor intensive, but this is where the real money is, as fees are higher and split among fewer Jurists. In order to get put on a panel, you need to have High Jurist standing. All of that work spent in SNAP’s is paying off here!
 
-**How it works: **Similar to normal court systems, this is considered an escalation. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and 
+**How it works: **Similar to normal court systems, this is considered an escalation from the lower SNAP system. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and attaching the required JRS.
+
+Based on the domain specialties marked on the arbitration agreement, a list of 
 
 
 
-The party\(s\) requesting the PANEL sends a PANEL transaction with JRS attached into the contract. All of the assets in the contested contract are moved into escrow. Based on the domain specialties marked on the arbitration agreement, a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
+a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
 
