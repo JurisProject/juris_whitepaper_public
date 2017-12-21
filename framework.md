@@ -18,7 +18,7 @@ The argument submission process will be locked following the response from the d
 
 ### Holding Wallets
 
-As soon as a Formal Complaint is filed, the CDK code generates a neutral blockchain wallet address into which the funds associated with the contract are moved. The funds can only be released from this wallet via the Juris CDK, and the use of one of the available resolution mechanisms. The neutral wallet address is maintained internally by the CDK code within the smart contract itself and if not known or accessible to contract parties, the Juris Foundation, or Jurists involved at later dates.  
+As soon as a Formal Complaint is filed, the CDK code generates a neutral blockchain wallet address into which the funds associated with the contract are moved. The funds can only be released from this wallet via the Juris CDK, and the use of one of the available resolution mechanisms. The neutral wallet address is maintained internally by the CDK code within the smart contract itself and if not known or accessible to contract parties, the Juris Foundation, or Jurists involved at later dates.
 
 ### Smart Contract Logs \("Hard Evidence"\)
 
@@ -78,9 +78,7 @@ At this point the disputing parties are again given access to the CDK resolution
 
 **How it works: **Similar to normal court systems, this is considered an escalation from the lower SNAP system. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and attaching the required JRS.
 
-Based on the domain specialties marked on the arbitration agreement, a list of 
-
-
+Based on the domain specialties marked on the arbitration agreement, a list of ten possible High Jurists will be provided to each party.
 
 a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
 
