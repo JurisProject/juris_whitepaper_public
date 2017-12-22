@@ -7,13 +7,12 @@ The Juris repchain is an evolution of existing systems with significant prior ar
 ### Trust Metrics
 The concept of measurable (or computable) trust has been studied extensively within the contexts of sociology and computer science, and is known as a *trust metric*. Defined simply, a *trust metric* is the quantification of the emotion *Trust*. However, Trust—being both abstract and subjective—has no formal and universal identity as a numerical quantity. It follows that trust metrics are proxies; they are numerical quantities that indicate the magnitude of trust between parties in a given context.
 
-The context dependence of trust metrics means that it's exceedingly difficult to directly map existing trust metrics to new systems, while retaining the original metric's meaning.
+The context dependence of trust metrics means that it's exceedingly difficult to directly map existing trust metrics to new systems, while retaining the original metric's meaning[^1]. Therefore the details of our trust metric will require a lot of tuning and ajustment as Juris matures. So instead of giving a detailed implimentation specification we will define our priorities and process.
 
 ### Reputation Systems
 A *reputation system* is a program that enables a community to collaboratively determine the trustworthiness of its members. More formally, a reputation system defines a trust metric, provides the framework for computing that metric, and calls the metric *reputation*.
 
-## The Repchain
-
+## Priorities for The Repchain
 Broadly, the Juris repchain should have the following qualities.
 
 ### Useful Proxy
@@ -70,16 +69,29 @@ After initialization, the system should be fully autonomous and decentralized.
 - decentralized: implies some kind of peer-to-peer
 - autonomous: (maybe not? initial governance is not autonomous)
 
-## Earning Reputation
-This is the section that will be of the greatest interest to Jurists. Earning rep keeps you in good standing and earning a lot of rep makes you elev
+##Earning Reputation
+This is the section that will be of the greatest interest to Jurists. Earning rep keeps you in good standing and earning a lot of rep makes you elegable to participate in PANELs. 
+
+SNAP is structured to profide lots of opertunities for
+
+(1) Jurists to demonstrate good judgement, and
+(2) Jurists to implicitly endorce each others judgement. 
+
+These implicict endrocements can then be used as the raw data for a directed weighted graph (DWG). By applying graph analitical techniques to these DWGs we can infer our *Trust Metric.* 
 
 ###The Easy Stuff
 
-Eat your vegetables and finish what you start. This stuff doesn’t really prove that you have good judgement, but failing to do it proves that you’re a bit of a flake and shouldn’t be trusted to make good judgement. So if you make an opening vote, and don’t make a final vote or endorse an opinion, you get dinged hard.
+Finish what you start. This stuff doesn’t really prove that you have good judgement, but failing to do it proves that you’re a bit of a flake and shouldn’t be trusted to make good judgement. So if you make an opening vote, and don’t make a final vote or endorse an opinion, you get dinged hard.
 
-Contributing to Discovery
-Contributing to Opinions
+###Contributing to Discussions and Opinions
 Is a pull request an implicit endorsement of the commits all ready on that chain?
 If a fork ends up being popular, the person who started that fork should get a lot of rep. They started a movement that stuck.
 
-PANEL Peer Review
+###PANEL Peer Review
+PANEL's don't have as many opertunitres for Juritst to show off . . . . [yada yada yada]
+
+###Graph Analysis
+
+
+
+[^1] Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 (2005): 337-358. https://link.springer.com/article/10.1007/s10796-005-4807-3
