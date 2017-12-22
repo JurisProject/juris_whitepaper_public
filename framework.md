@@ -80,5 +80,5 @@ At this point the disputing parties are again given access to the CDK resolution
 
 _Arbitration Panel Selection:_ Based on the domain specialties marked on the arbitration agreement, a list of ten available High Jurists will be provided to each party. The High Jurists will be notified at this time of their inclusion on this short list, will have access to the case brief, and will be invited to remove themselves if there is a potential conflict of interest. They will have 30 days from the delivery of the High Jurist list after which they will be required to select three, or submit three alternatives, numbered by preference. If a party chooses alternative arbitrators, any arbitrator not registered for the Juris will be required to register and provide proof of credentials before the end of the 30 day period. At this time each lists of preferred High Jurists will be shared with the opposing party, which will have 15 days to eliminate up to two of the opposing party's choices. The remaining Jurists will select a third, neutral, "Presiding High Jurist," to complete a final panel of three High Jurists.
 
-_Hearing Process: _All previous materials, opinions, evidence, and claims will be made available for panel review. 
+_Hearing Process: _All previous materials, opinions, evidence, and claims will be made available for panel review.
 
