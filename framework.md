@@ -62,7 +62,7 @@ At the end of the deliveration period, all of the Informed Judgements are closed
 
 During opinion composition, all Jurists retain access to all case brief, evidence, and discussion details. The Jurists of a Consensus Group collaborate by making material contributions in the same form as the earlier discussion. Before the end of the opinion composition, each Consensus Group compiles these Opinion Artifacts into a Final Opinion.
 
-With the submission of the Final Opinion, communication between all participants ceases, and the Final Opinions from both Consensus Groups are delivered to all parties along with a breakdown of the final voting split.
+With the submission of the Final Opinion, communication between all participants ceases, and the Final Opinions from both Consensus Groups are delivered to all parties along with a breakdown of the final voting split. All voting data, discussion records, and opinions are additionally attached to the contract recored in case of further escalation.
 
 At this point the disputing parties are again given access to the CDK resolution tools to implement an agreed upon dispute solution.
 
@@ -76,9 +76,9 @@ At this point the disputing parties are again given access to the CDK resolution
 
 **From the Jurists’ perspective:** This is more labor intensive, but this is where the real money is, as fees are higher and split among fewer Jurists. In order to get put on a panel, you need to have High Jurist standing. All of that work spent in SNAP’s is paying off here!
 
-**How it works: **Similar to normal court systems, this is considered an escalation from the lower SNAP system. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and attaching the required JRS.
+**How it works: **Similar to normal court systems, this is considered an escalation from the lower SNAP system. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and attaching the required JRS. 
 
-Based on the domain specialties marked on the arbitration agreement, a list of ten possible High Jurists will be provided to each party.
+Based on the domain specialties marked on the arbitration agreement, a list of ten available High Jurists will be provided to each party. They will have 15 days from the delivery of the High Jurist list after which they will be required to select three, or submit three alternatives, numbered by preference. If a party chooses alternative arbitrators, any arbitrator not registered for the Juris will be required to register and provide proof of credentials before the end of the 15 day period.  
 
 a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
 
