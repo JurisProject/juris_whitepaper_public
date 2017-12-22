@@ -2,7 +2,7 @@
 
 ### Defensibility
 
-Before you decide to commit your time to working on an open source project or stockpiling a utility token behind it, it would be really nice to know if it’s going to win in the long term. Every good idea has lots clones and forking iteration. Why is Juris going to win in the long term?
+Before you decide to commit your time to working on an open source project or stockpiling a utility token behind it, it would be really nice to know if it’s going to win in the long term. Every good idea has lots clones and forking iterations. Why is Juris going to win in the long term?
 
 First mover advantage is nice. Bitcoin remained the dominant medium-of-exchange crypto currency despite thousands of competitors, many of which are technically superior. If all of the interested parties commit to the first mover, everyone has more of an incentive to improve the first mover, than to jump \(alone\) to an upstart platform. Juris has this advantage.
 
