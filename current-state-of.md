@@ -4,7 +4,7 @@ Especially following the collapse of the DAO, the need for mediation and arbitra
 
 #### DAMN
 
-In May, 2016, pre DAO hack, Third Key Solutions, founded by Pamela Morgan and notable Bitcoin advocate Andreas M. Antonopoulos released a proposal for DAMN, a Decentralized Arbitration and Mediation Network. The proposal was brief, and outlined an open source project intended to create a network similar to Juris on many fronts, in particular the adherence to United Nations arbitration standards. Their proposal was submitted to the DAO for funding approval and sentiment regarding the proposal was largely positive. The last activity on the project Github repo was in late May, 2016, with the DAO hack taking everyone’s attention shortly thereafter.
+In May, 2016, pre DAO hack, Third Key Solutions, founded by Pamela Morgan and notable Bitcoin advocate Andreas M. Antonopoulos released a proposal for DAMN: a Decentralized Arbitration and Mediation Network. The proposal was brief, and outlined an open source project intended to create a network similar to Juris on many fronts, in particular the adherence to United Nations arbitration standards. Their proposal was submitted to the DAO for funding approval and sentiment regarding the proposal was largely positive. The last activity on the project Github repo was in late May, 2016, with the DAO hack taking everyone’s attention shortly thereafter.
 
 #### Kleros
 
@@ -15,6 +15,4 @@ Released as a concept whitepaper 2017, Kleros represents a more focused advance 
 Part of the initial excitement for smart contracts, was the elimination of ambiguity and human jusgement from the process of contract execution. But most of the community has retreated from that view[^1] and many of todays most promising blockchain aplications pivot arround matters of judgement \(cround funding, freelancing, content licensing, etc\). Did a croud funded team hit there milstone? Did a freelancer deliver what they promised? The best players in each of these spaces has reconized that the reliance on matters of judgement implies that there will be disputes, and have therefore outlined dispute resolution \(DR\) mechanisms. However, these platforms are not at heart about DR and they have accordingly given little attention to design of their DR systems. Many lack any incentives; many are vulnerable to simple attack patters; and all nessesarily use members of thier general comunity to ajudicate disputes.
 
 Juris is first-and-formost a tool for these platforms to get out of the side business of DR, so that they can focus on thier core value. By integrating Juris in to thier platform, they are outsoursing a highly technical existential problem.
-
-[^1]:  [https://blog.ethereum.org/2016/06/19/thinking-smart-contract-security/](https://blog.ethereum.org/2016/06/19/thinking-smart-contract-security/)
 
