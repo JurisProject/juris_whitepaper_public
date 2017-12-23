@@ -1,6 +1,8 @@
 ## Conclusion
 
-\[Work in Progress\]
+The steady spread of 
+
+\[ Work in Progress\]
 
 * Disputes happen, software has bugs, humans disagree, and humans misunderstand: for blockchain based technologies and smart contracts to truly take hold they will need to acknowledge this, and systems must evolve.
 
