@@ -3,7 +3,8 @@
 If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable individuals. This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment? As a solution to this challenge, we propose a trust framework—a *reputation system*—tightly integrated with the Juris platform, but executed as its own blockchain. In this chapter we explore the existing literature on similar systems, before describing the Juris Reputation Blockchain (hereafter, the *repchain*) in detail.
 
 ## Background
-The Juris repchain is an evolution of existing systems with significant prior art.
+The Juris repchain is an evolution of existing systems with significant prior art:
+
 ### Trust Metrics
 The concept of measurable (or computable) trust has been studied extensively within the contexts of sociology and computer science, and is known as a *trust metric*. Defined simply, a *trust metric* is the quantification of the emotion *Trust*. However, Trust—being both abstract and subjective—has no formal and universal identity as a numerical quantity. It follows that trust metrics are proxies; they are numerical quantities that indicate the magnitude of trust between parties in a given context.
 
