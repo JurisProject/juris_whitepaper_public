@@ -126,7 +126,7 @@ All of the implicit endorcements produced during dispute mediation will be model
 
 #### Repchain Attack Resistance
 
-Simple points based karma systems are vulnerable to many classes of attack. For example, it would be trivial to attack the rep chain my submitting fraudulent low stakes contracts and using sibyl accounts to mediate them. These fraudulent methods can be detected and factored out of the rep calculation. 
+Simple points based karma systems are vulnerable to many classes of attack. For example, it would be trivial to attack the rep chain my submitting fraudulent low stakes contracts and using sibyl accounts to mediate them. But by using a graph based rep score these fraudulent methods can be detected and factored out of the rep calculation. A linear increase in fraudulent graph based reputation would require an exponential increase in the size of the attack. 
 
 Nodes mining the repchain would preform this graph analysies as part of thier proof-or-work. It's much eaier to check to result of a graph analysis, O\(n\), than it is to preform the analisys, O\(n^3\). That makes it a good fit for distrubuted proof of work.
 
