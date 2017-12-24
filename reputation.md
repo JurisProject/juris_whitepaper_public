@@ -69,7 +69,7 @@ After initialization, the system should be fully autonomous and decentralized.
 - decentralized: implies some kind of peer-to-peer
 - autonomous: (maybe not? initial governance is not autonomous)
 
-##Earning Reputation
+## Earning and Computing Reputation
 This is the section that will be of the greatest interest to Jurists. Earning rep keeps you in good standing and earning a lot of rep makes you elegable to participate in PANELs. 
 
 SNAP is structured to profide lots of opertunities for
@@ -79,19 +79,25 @@ SNAP is structured to profide lots of opertunities for
 
 These implicict endrocements can then be used as the raw data for a directed weighted graph (DWG). By applying graph analitical techniques to these DWGs we can infer our *Trust Metric.* 
 
-###The Easy Stuff
-
+### The Easy Stuff
 Finish what you start. This stuff doesn’t really prove that you have good judgement, but failing to do it proves that you’re a bit of a flake and shouldn’t be trusted to make good judgement. So if you make an opening vote, and don’t make a final vote or endorse an opinion, you get dinged hard.
 
-###Contributing to Discussions and Opinions
+### Contributing to Discussions and Opinions
 Is a pull request an implicit endorsement of the commits all ready on that chain?
 If a fork ends up being popular, the person who started that fork should get a lot of rep. They started a movement that stuck.
 
-###PANEL Peer Review
-PANEL's don't have as many opertunitres for Juritst to show off . . . . [yada yada yada]
+### PANEL Peer Review
+PANEL's don't have as many structured opertunitres for Juritst demonstarte thier good judgement. PANELs are by thier nature, much more freeform. Therefore in a PANEL, Jursts will endorse each other much more explicitly using peer review after a judgement. These peer reviews will be structured to elicit meaningfull measures of endorsement. 
 
-###Graph Analysis
+### Graph Analysis
+All of the implicit endorcements produced during dispute mediation will be modeled as a weighted directed graph. Those endorsments will slowly 'rot' overtime, ensuring that the graph remains recent. By using verious graph analytical techniques (PageRank, AvoGatoTrust, EigenTrust, etc) we'll be able to infer Jurists reputaiton within the netowrk. There is an extensive academic literature on using graph analysis to infer 'trust' and 'repution' within distributed systems. By drawing on this literature, and bancing different graph analytical tehcniques, we'll be able to acheive many of the goals for our reputions metric outlined above.
+
+## Repchain Attack Resistance
+Simple points based karma systems are vulnurible to many classes of attack. For example, it would be trival to attack the rep chain my submitting fraudulent low statkes contracts and using sibyl accounts to mediate them. These fraudulent methods can 
+
+Nodes mining the repchain would preform this graph analysies as part of thier proof-or-work. It's much eaier to check to result of a graph analysis, O(n), than it is to preform the analisys, O(n^3). That makes it a good fit for distrubuted proof of work. 
 
 
+## Conclusion
 
 [^1] Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 (2005): 337-358. https://link.springer.com/article/10.1007/s10796-005-4807-3
