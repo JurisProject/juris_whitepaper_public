@@ -112,17 +112,13 @@ If a fork ends up being popular, the person who started that fork should get a l
 ### PANEL Peer Review
 PANEL's don't have as many structured opertunitres for Juritst demonstarte thier good judgement. PANELs are by thier nature, much more freeform. Therefore in a PANEL, Jursts will endorse each other much more explicitly using peer review after a judgement. These peer reviews will be structured to elicit meaningfull measures of endorsement. 
 
-### Graph Analysis
+## Graph Analysis
 All of the implicit endorcements produced during dispute mediation will be modeled as a weighted directed graph. Those endorsments will slowly 'rot' overtime, ensuring that the graph remains recent. By using verious graph analytical techniques (PageRank, AvoGatoTrust, EigenTrust, etc) we'll be able to infer Jurists reputaiton within the netowrk. There is an extensive academic literature on using graph analysis to infer 'trust' and 'repution' within distributed systems. By drawing on this literature, and bancing different graph analytical tehcniques, we'll be able to acheive many of the goals for our reputions metric outlined above.
 
-## Repchain Attack Resistance
+#### Repchain Attack Resistance
 Simple points based karma systems are vulnurible to many classes of attack. For example, it would be trival to attack the rep chain my submitting fraudulent low statkes contracts and using sibyl accounts to mediate them. These fraudulent methods can 
 
 Nodes mining the repchain would preform this graph analysies as part of thier proof-or-work. It's much eaier to check to result of a graph analysis, O(n), than it is to preform the analisys, O(n^3). That makes it a good fit for distrubuted proof of work. 
-
-
-### Graph Analysis
-
 
 
 [^1]:  [Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 \(2005\): 337-358.](https://link.springer.com/article/10.1007/s10796-005-4807-3)
