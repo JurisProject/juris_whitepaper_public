@@ -56,7 +56,7 @@ _Difficult:_ Earning rep requires considerable human action.
 
 Earning rep illegitimately should be so difficult as to be effectively impossible.
 
-\_Illegitimate: \(D\_efinition by negation.\) An individual using multiple identities, or multiple individuals using a single identity, who manipulate the outcome of contract disputes through unfair and/or biased application of knowledge and judgement, is/are **earning rep illegitimately**.
+_Illegitimate:_ \(Definition by negation.\) An individual using multiple identities, or multiple individuals using a single identity, who manipulate the outcome of contract disputes through unfair and/or biased application of knowledge and judgement, is/are **earning rep illegitimately**.
 
 ### Identity-Based
 
