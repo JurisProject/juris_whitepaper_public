@@ -34,7 +34,7 @@ In the Juris system "reputation" gauges the degree to which a person is capable 
 
 _An individual's capacity to effectively arbitrate cases:_ our trust metric. Reputation is a proxy that gauges this capacity.
 
-### Verifiable
+#### Verifiable
 
 Rep must be readily calculable, deterministic, and open.
 
@@ -44,7 +44,7 @@ _Deterministic:_ Repeatable rep computations. Starting from the same base state,
 
 _Open:_ Rep algorithm and log of rep-changing transactions are both public. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores quickly and easily.
 
-### Achievable When Warranted
+#### Achievable When Warranted
 
 Earning rep legitimately should be straightforward, although difficult.
 
@@ -53,8 +53,6 @@ _Straightforward:_ Knowledge of the repchain's implementation is neither necessa
 _Legitimate:_ An individual who, using a single identity, is committed to resolving smart contract disputes through the fair and impartial application of knowledge and judgement, is **earning rep legitimately**.
 
 _Difficult:_ Earning rep requires considerable human action.
-
-### Unachievable When Unwarranted
 
 #### Unachievable When Not Warranted
 
@@ -66,69 +64,70 @@ _Illegitimate:_ \(Definition by negation.\) An individual using multiple identit
 
 Rep must be non-transferrable and unsusceptible to commodification.
 
-_Non-transferrable_—down to the smallest denomination, rep is permanently tied to one identity \(account\).
+_Non-transferrable:_ down to the smallest denomination, rep is permanently tied to one identity \(account\).
 
-_Non-commodification_—no quid pro quo. The reputation system has barriers that limit the feasibility of selling an identity.
+_Non-commodification:_ no quid pro quo. The reputation system must have barriers that limit the feasibility of selling an identity/account.
 
 #### Promotes Cooperation
 
-The system must have a sensible incentive structure: arbitrators are rewarded for sound judgement and effective prosecution, and punished for poor judgement or bad behavior.
-
-The system must have a sensible incentive structure: Jurists are rewarded for sound judgement, fruitful contribution, and effective prosecution. Jurists punished for poor judgement, bad behavior, or extended failure to engage in the system demonstrating, at least, continued attention to the system.
-
-* implies that _quality_ of action more important than _quantity_ of action; therefore, the system needs quality metrics
+The system must have a sensible incentive structure. Jurists are rewarded for sound judgement, fruitful contribution, and effective prosecution. Jurists are punished for poor judgement, bad behavior, or extended failure to engage in the system.
 
 _Punishment:_ The system must provide for the increase _and decrease_ of reputation.
 
-### Attack-Resistant
+_Quantity of engagement:_ Continued engagement with system must be rewarded, and lack of engagement punished.
+
+Q_uality of engagement:_ the system was measure not only the amount of engagement, but the quality and efficacy of that engagement via, among other tools, Upvote/downvote systems, and peer review of opinions.
+
+#### Attack-Resistant
 
 The system should be resistant to malicious actors, sybil attacks, and abuse through collusion.
 
-* malicious actors: system should be decentralized, both correctness and incorrectness should be provable
-* sybil attacks: creating many accounts must be extremely difficult. it must always more effective to concentrate rep in one account instead of many.
-* collusion: just as one person with many accounts less effective than same person with one account, many legitimate accounts with low rep must be less impactful than one legitimate account with high rep
+_Malicious actors:_ The system should be decentralized, both correctness and incorrectness should be provable
 
-### Self-Perpetuating
+_Sybil attacks:_ Creating many accounts must be extremely difficult. it must always more effective to concentrate rep in one account instead of many.
+
+_Collusion:_ Just as one person with many accounts less effective than same person with one account, many legitimate accounts with low rep must be less impactful than one legitimate account with high rep
+
+#### Self-Perpetuating
 
 After initialization, the system should be fully autonomous and decentralized.
 
-* computed by a computer \(duh\)
-* decentralized: implies some kind of peer-to-peer
-* autonomous: \(maybe not? initial governance is not autonomous\)
+_Decentralized:_ as a blockchain based system it should be able to function on a peer-to-peer basis, without the requirement of a central oracle.
+
+_Autonomous:_ rep is awarded only based on system parameters. There is no way to earn reuptation _other_ than taking part in the system, or through providing proof of previous credentials.
 
 ## Earning and Computing Reputation
 
-This is the section that will be of the greatest interest to Jurists. Earning rep keeps you in good standing and earning a lot of rep makes you elegable to participate in PANELs.
+Earning rep keeps you in good standing and earning a lot of rep makes you elidigble to participate in PANELs.
 
-SNAP is structured to profide lots of opertunities for
+SNAP is structured to provide numerous opportunity for:
 
 \(1\) Jurists to demonstrate good judgement, and  
-\(2\) Jurists to implicitly endorce each others judgement.
+\(2\) Jurists to implicitly or explicitly endorse the judgement of other Jurists.
 
-These implicict endrocements can then be used as the raw data for a directed weighted graph \(DWG\). By applying graph analitical techniques to these DWGs we can infer our _Trust Metric._
+These implicit endorsements can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our _Trust Metric._
 
-### The Easy Stuff
+### Accounting for the Basics
 
-Finish what you start. This stuff doesn’t really prove that you have good judgement, but failing to do it proves that you’re a bit of a flake and shouldn’t be trusted to make good judgement. So if you make an opening vote, and don’t make a final vote or endorse an opinion, you get dinged hard.
+It is important to take into account a subset of standard best practices, which may have little to do with judgement. Finish what you start. Be polite. Report conflicts of interest. These practices don’t really prove that you have good judgement, but failing to do it proves that you’re a bit of a flake and shouldn’t be trusted to make good judgement. So if you make an opening vote, and don’t make a final vote or endorse an opinion, you lose reputation. If you are reported for bad, abusive, or clearly biased behavior, you lose reputation.
 
 ### Contributing to Discussions and Opinions
 
-Is a pull request an implicit endorsement of the commits all ready on that chain?  
-If a fork ends up being popular, the person who started that fork should get a lot of rep. They started a movement that stuck.
+The structure of measurement in this space will take shape over time, but can begin simply with an upvote/downvote dynamic for comments and questions during SNAP proceedings. As opinions are moved to increasingly collaborative writing processes the reputation systems can become increasingly fluid. Contributions can be quantified and rated similarly to GitHub repos and contributions, with reputation awarded accordingly at the close of the SNAP. Points may be awarded for popular forks, and for merges back into the master. Implicit endorsements can be deduced from the persistence of changes to documents, which can be attributed to the party which committed those changes to the document.
 
 ### PANEL Peer Review
 
-PANEL's don't have as many structured opertunitres for Juritst demonstarte thier good judgement. PANELs are by thier nature, much more freeform. Therefore in a PANEL, Jursts will endorse each other much more explicitly using peer review after a judgement. These peer reviews will be structured to elicit meaningfull measures of endorsement.
+PANEL's don't have as many inherent structured opportunities for Jurists to demonstrate their good judgement. They are, by their nature, much more freeform. Therefore in a PANEL, Jurists will endorse each other much more explicitly using peer review following PANEL proceedings. These peer reviews will be structured to elicit meaningful measures of endorsement, as well as feedback for the most skilled of the Jurist pool, allowing them to improve and maintain standing.
 
 ## Graph Analysis
 
-All of the implicit endorcements produced during dispute mediation will be modeled as a weighted directed graph. Those endorsments will slowly 'rot' overtime, ensuring that the graph remains recent. By using verious graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc\) we'll be able to infer Jurists reputaiton within the netowrk. There is an extensive academic literature on using graph analysis to infer 'trust' and 'repution' within distributed systems. By drawing on this literature, and bancing different graph analytical tehcniques, we'll be able to acheive many of the goals for our reputions metric outlined above.
+All of the implicit endorsements produced during dispute mediation will be modeled as a weighted directed graph. Reputation earned will slowly 'rot' over time, ensuring that the graph remains current, and promotes ongoing engagement. By using various graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc\) we will be able to infer Jurists reputation within the network. There is extensive academic literature on using graph analysis to infer 'trust' and 'reputation' within distributed systems. By drawing on this literature, and balancing different graph analytical techniques, we'll be able to achieve the requirement goals set above.
 
 #### Repchain Attack Resistance
 
-Simple points based karma systems are vulnerable to many classes of attack. For example, it would be trivial to attack the rep chain my submitting fraudulent low stakes contracts and using sibyl accounts to mediate them. But by using a graph based rep score these fraudulent methods can be detected and factored out of the rep calculation. A linear increase in fraudulent graph based reputation would require an exponential increase in the size of the attack. 
+Simple points based karma systems are vulnerable to many classes of attack. For example, it would be trivial to attack the rep chain by submitting fraudulent low stakes contracts and using sibyl accounts to mediate them. But, by using a graph based rep score these fraudulent methods can be detected and factored out of the rep calculation. A linear increase in fraudulent graph based reputation would require an exponential increase in the size of the attack.
 
-Nodes mining the repchain would preform this graph analysies as part of thier proof-or-work. It's much eaier to check to result of a graph analysis, O\(n\), than it is to preform the analisys, O\(n^3\). That makes it a good fit for distrubuted proof of work.
+Nodes mining the repchain would preform this graph analyses as part of their proof-or-work. It's much easier to check to result of a graph analysis, O\(n\), than it is to preform the analysis, O\(n^3\). This makes it a good fit for distributed proof of work.
 
 [^1]:  [Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 \(2005\): 337-358.](https://link.springer.com/article/10.1007/s10796-005-4807-3)
 
