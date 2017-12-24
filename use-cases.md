@@ -42,7 +42,7 @@ The remaining investors choose to escalate the case further. This signals Juris 
 
 Any investors or entrepreneurs reading this exchange probably found it extremely unpleasant to read. But imagine if these parties hadn’t had access to fast, just mediation.
 
-[^1]: [https://ujomusic.com/](https://ujomusic.com/)
+[^1]:[https://ujomusic.com/](https://ujomusic.com/)
 
-[^2]: https://www.coinlancer.io/
+[^2]:[https://www.coinlancer.io/](https://www.coinlancer.io/)
 

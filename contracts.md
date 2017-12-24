@@ -53,15 +53,15 @@ That’s not to say that we should throw our hands up in defeat. On the contrary
   
 
 
-[^1]: [https://en.wikipedia.org/wiki/Alternative\_dispute\_resolution](https://en.wikipedia.org/wiki/Alternative_dispute_resolution)
+[^1]:[https://en.wikipedia.org/wiki/Alternative\_dispute\_resolution](https://en.wikipedia.org/wiki/Alternative_dispute_resolution)
 
-[^2]: http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html
+[^2]:[http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html](http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html)
 
-[^3]: https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards
+[^3]:[https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards](https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards)
 
-[^4]: [https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf](https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf)
+[^4]:[https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf](https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf)
 
-[^5]: [https://www.tricentis.com/resource-assets/software-fail-watch-2016/](https://www.tricentis.com/resource-assets/software-fail-watch-2016/)
+[^5]:[https://www.tricentis.com/resource-assets/software-fail-watch-2016/](https://www.tricentis.com/resource-assets/software-fail-watch-2016/)
 
 
 
