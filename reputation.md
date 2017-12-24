@@ -15,12 +15,12 @@ A *reputation system* is a program that enables a community to collaboratively d
 ## Priorities for The Repchain
 Broadly, the Juris repchain should have the following qualities.
 
-### Useful Proxy
+#### Useful Proxy
 Rep gauges the degree to which a person is capable of effectively arbitrating cases.
 
 *An individual's capacity to effectively arbitrate cases*—our trust metric. Rep is a proxy that gauges this capacity.
 
-### Verifiable
+#### Verifiable
 Rep must be readily calculable, deterministic, and open.
 
 *Readily calculable*—should not be conflated with "computationally or algorithmically simple." Instead, we mean **right-sized for the execution engine**. If the execution engine is Ethereum, then "readily calculable" does translate to "computationally simple" due to the cost of computing on the Ethereum platform.
@@ -29,7 +29,7 @@ Rep must be readily calculable, deterministic, and open.
 
 *Open*—rep algorithm and log of rep-changing transactions are both public. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores.
 
-### Achievable When Warranted
+#### Achievable When Warranted
 Earning rep legitimately should be straightforward, although difficult.
 
 *Straightforward*—knowledge of the repchain's implementation is neither necessary nor advantageous for earning rep.
@@ -38,31 +38,32 @@ Earning rep legitimately should be straightforward, although difficult.
 
 *Difficult*—earning rep requires considerable human action.
 
-### Unachievable When Wot Warranted
+#### Unachievable When Wot Warranted
 Earning rep illegitimately should be so difficult as to be effectively impossible.
 
 *Illegitimate*—definition by negation. An individual using multiple identities, or multiple individuals using a single identity, who manipulate the outcome of contract disputes through unfair and/or biased application of knowledge and judgement, is/are **earning rep illegitimately**.
 
-### Identity-Based
+#### Identity-Based
 Rep must be non-transferrable and unsusceptible to commodification.
 
-- Down to the smallest denomination, rep is permanently tied to one 'account'
-- unsusceptible to commodification: rep cannot be earned quid pro quo. barriers to transferring an account from one entity to another (unresolved?)
+*Non-transferrable*—down to the smallest denomination, rep is permanently tied to one identity (account).
 
-### Promotes Cooperation
+*Non-commodification*—no quid pro quo. The reputation system has barriers that limit the feasibility of selling an identity.
+
+#### Promotes Cooperation
 The system must have a sensible incentive structure: arbitrators are rewarded for sound judgement and effective prosecution, and punished for poor judgement or bad behavior.
 
 - implies that *quality* of action more important than *quantity* of action; therefore, the system needs quality metrics
 - punished: reputation can be docked
 
-### Attack-Resistant
+#### Attack-Resistant
 The system should be resistant to malicious actors, sybil attacks, and abuse through collusion.
 
 - malicious actors: system should be decentralized, both correctness and incorrectness should be provable
 - sybil attacks: creating many accounts must be extremely difficult. it must always more effective to concentrate rep in one account instead of many.
 - collusion: just as one person with many accounts less effective than same person with one account, many legitimate accounts with low rep must be less impactful than one legitimate account with high rep
 
-### Self-Perpetuating
+#### Self-Perpetuating
 After initialization, the system should be fully autonomous and decentralized.
 
 - computed by a computer (duh)
