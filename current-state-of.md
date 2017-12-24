@@ -12,11 +12,7 @@ Released as a concept whitepaper 2017, Kleros represents a more focused advance 
 
 #### Platform Specific Dispute Resolution
 
-Part of the initial excitement for smart contracts, was the elimination of ambiguity and human jusgement from the process of contract execution. But most of the community has retreated from that view[^1] and many of todays most promising blockchain aplications pivot arround matters of judgement \(cround funding, freelancing, content licensing, etc\). Did a croud funded team hit there milstone? Did a freelancer deliver what they promised? The best players in each of these spaces has reconized that the reliance on matters of judgement implies that there will be disputes, and have therefore outlined dispute resolution \(DR\) mechanisms. However, these platforms are not at heart about DR and they have accordingly given little attention to design of their DR systems. Many lack any incentives; many are vulnerable to simple attack patters; and all nessesarily use members of thier general comunity to ajudicate disputes.
+Part of the initial excitement for smart contracts was the elimination of ambiguity and human judgement from the process of contract execution. But most of the community has retreated from that view[^1] and many of todays most promising blockchain aplications pivot arround matters of judgement \(cround funding, freelancing, content licensing, etc\). Did a croud funded team hit there milstone? Did a freelancer deliver what they promised? The best players in each of these spaces has reconized that the reliance on matters of judgement implies that there will be disputes, and have therefore outlined dispute resolution \(DR\) mechanisms. However, these platforms are not at heart about DR and they have accordingly given little attention to design of their DR systems. Many lack any incentives; many are vulnerable to simple attack patters; and all nessesarily use members of thier general comunity to ajudicate disputes.
 
-Juris is first-and-formost a tool for these platforms to get out of the side business of DR, so that they can focus on thier core value. By integrating Juris in to thier platform, they are outsoursing a highly technical existential problem.
-
-[^1]: https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc
-
-[^2]: https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true
+Juris is first-and-foremost a tool for these platforms to get out of the side business of dispute resolution, so that they can focus on their core value. By integrating Juris in to their platform, they are outsourcing a highly technical, possibly existential problem.
 
