@@ -1,4 +1,6 @@
-## Juris Adjudication Protocol - Whitepaper
+## Juris Adjudication Protocol
+
+Last Updated: 
 
 [https://juriscoin.io](https://juriscoin.io)
 

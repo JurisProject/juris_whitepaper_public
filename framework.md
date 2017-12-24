@@ -1,68 +1,86 @@
 # The Juris Framework
 
+### Dispute Triggers
+
+All disputes will be triggered manually, and the ability to trigger a dispute will be limited to a direct party to the contract, or other parties to which the ability has been delegated via the CDK at the time of contract creation. Dispute triggers will be accessible only to these parties through the CDK, and via the Juris Dashboard. The Juris Foundation, its agents, arbitrators, and Jurists are unable to trigger a dispute on behalf of another party.
+
+### Contract Lock
+
+The moment that a dispute is triggered the CDK code freezes smart contract processes. The contract code does not proceed forward. If the contract is a public contract, or a contract with a massive number of parties, and a previously agreed upon dispute threshold is reached; processes are frozen and additional parties are unable to access the contract until the disputes are resolved.
+
 ### Evidence, Arguments, and Discussion
 
-When a dispute is triggered, the triggering party will be required by the Juris platform to include itemized claims, their desired resolution, and their initial arguments for the resolution. Additionally they will be able to provide any details or evidence regarding the case that may fall outside of the smart contract logs. All of these details will be attached to the smart contract through the CDK, and other parties will be notified that a dispute has been triggered.
+When a dispute is triggered, the triggering party will be required by the Juris platform to include itemized claims, their desired resolution, and their initial arguments for that resolution \(together, the "Formal Complaint."\) Additionally they will be able to provide any details or evidence regarding the case that may fall outside of the smart contract logs \("Supplementary Evidence."\) All of these details will be attached to the smart contract through the CDK, and will follow the case through the Juris system.
 
-The counter-party to the dispute will have a designated amount of time to respond to the claims of the triggering party. They will be required to provide a direct response to each item of the claim, and their initial arguments for their preferred resolution. Here they will also be able to provide any additional details or evidence for their side that may fall outside of the smart contract logs. If there is no response from the counter-party the system will issue a default judgement in the favor of the claimant.
+The counter-party to the dispute will have a designated amount of time to respond to the claims of the triggering party. They will be required to provide a direct response to each item of the claim, and their initial arguments for their preferred resolution. Here they will also be able to provide any additional details or evidence for their side that may fall outside of the smart contract logs. If there is no response from the counter-party, and a response is required by the resolution mechanism, the system will issue a default judgement in the favor of the claimant.
 
-The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence, will take place via resolution processes outlined in paragraph 6.4.
+The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence, will take place via resolution processes outlined below.
 
-### Smart Contract Logs
+### Holding Wallets
 
-One of the most critical peices of evidance provided to the Jurists will be the history of logs and transactions assiciated with the scart contract in question. This is especially true when a bug in the smart contract is what brought the contract to Juris. These logs will autmiatcally summarised and made available to Jurists as evidence.
+As soon as a Formal Complaint is filed, the CDK code generates a neutral blockchain wallet address into which the funds associated with the contract are moved. The funds can only be released from this wallet via the Juris CDK, and the use of one of the available resolution mechanisms. The neutral wallet address is maintained internally by the CDK code within the smart contract itself and if not known or accessible to contract parties, the Juris Foundation, or Jurists involved at later dates.
+
+### Smart Contract Logs \("Hard Evidence"\)
+
+One of the most critical pieces of evidence provided to the Jurists will be the history of logs and transactions associated with the smart contract in question. This is especially true when a bug in the smart contract is what lead to Juris dispute resolution. At the moment that the dispute is initiated the Juris CDK collects and freezes all transaction logs, contract execution logs, contract state, and the contract code itself. These logs will be automatically summarized and made available to Jurists as evidence.
 
 ## Three Resolution Mechanisms
 
-What do you do when you have a dispute with someone off the blockchain? First, you try to work it out amongst yourselves. If you can’t, you’d seek advice. If that advice doesn’t help you solve things, you’ll ask someone neutral to make the choice for you. Juris works the same way.
-
 ### SELF \(Self-Enforced Library Functions\) Judgement
 
-**Problem it solves:** Something has gone wrong with a smart contract. All parties to the contract agree what should happen next. This could be caused by a bug, a broken oracle feed, or any other unforeseen event.
+**Problem it solves:** Something has gone wrong with a smart contract. All parties to the contract agree what should happen next. This could be caused by a bug, a broken oracle feed, or any other unforeseen event. Whether right away, or after brief negotiation the parties have a solution and they agree that the solution is fair.
 
-  
-**How Juris moves:** No Juris changes hands when the self-mediation toolkit is activated. The parties “pre-paid” for them when they signed the contract.
+**How Juris moves:** No Juris changes hands when the self-mediation toolkit is activated, but all funds in the initial contract are locked. The parties “pre-paid” for them when they signed the contract and attached their JRS.
 
-  
 **From the parties perspective:** This is a free and fast way to amicably resolve a misbehaving contract.
 
-  
 **From the Jurists’ perspective:** This keeps trivial business out of the docket.
 
-
-**How it works:** Often, people are able to solve their own disputes. In the case of software bug, or any time the parties agree what the contract should do, but that intended behavior is not the contract’s expected behavior, the parties just need the tools to force some very specific behavior out of the contract.  
-For these users, we’re building a package of self mediation tools which implement some basic operations \(void the contract, give all assets to party A, ect\). These tools will be totally open source and free.
-
+**How it works:** The incorporation of the Juris CDK allows the protocol to alter the outcome of a smart contract. Through the Juris dashboard the parties to the contract have access a package of self mediation tools which provide for the implementation of some basic operations to designate a different outcome for the smart contract, \(void the contract, give all assets to party A, etc\). These tools will be totally open source and free.
 
 ### SNAP \(Simple Neutral Arbitrator Poll\) Judgement
 
-**Problem it solves:** If parties believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they should opt for a SNAP.
+**Problem it solves:** If parties are unable to settle on an outcome on their own, and believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they should opt for a SNAP.
 
-  
-**How Juris moves:** The party\(s\) to the contract requesting the SNAP pay whatever they want to activate the SNAP \(above a minimum\). 5% of that fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who vote in the SNAP.
+**How Juris moves:** The party\(s\) to the contract requesting the SNAP pay whatever they want to activate the SNAP \(above a minimum covered by the already attached JRS.\) 5% of that fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who take part in the SNAP.
 
-  
-**From the parties perspective:** It’s a cheap way to get a fast judgement and a lot of input from different perspectives.  
-From the Jurists’ perspective: SNAP’s don’t pay very well, but they do offer a lot of opportunities to earn rep. Jurists are always on the hunt for a contract where their unique expertise will be decisive. Since everyone has to split the arbitration fee, it pays to look into disputes that no one else is looking at. You need to pay attention, vote reasonably, and contribute if you’re going to increase or maintain your standing.
+**From the parties perspective:** It’s a cheap way to get a fast judgement and a lot of input from different perspectives. It may have the power to quickly resolve a negotiation stalemate.
 
-  
-**How it works:** All parties to a contract have 24 hours to submit an argument. Once they’re all in, any Jurist can see the arguments. To take a case a Jurist must vote based only on the arguments and submit a textual justification of their vote. After 24 hours, if the SNAP has had at least 5 votes the justifications are revealed to the jurists, and Discovery begins. The jurists can ask the parties any questions they have, vote on the questions and comment on the parties responses \(very much like a Reddit AMA\). By the end of discovery all jurists must vote again \(or their opening vote will carry over and they will lose reputation\). Then, the collective opinion phase begins, lasting 36 hours. Using the git source control system, Jurists collaboratively author an opinion for each position that received at least one vote. Based on the vote and opinion, the parties can decide to self mediate an outcome, or appeal for a PANEL.
+**From the Jurists’ perspective:** SNAP’s don’t pay as well, but they do offer a lot of opportunities to earn reputation. Jurists are always on the hunt for a contract where their unique expertise will be decisive. Since everyone has to split the arbitration fee, it pays to look into disputes that no one else is looking at. You need to pay attention, vote reasonably, and contribute if you’re going to increase or maintain your standing.
 
-  
-The format allows parties to provide opening arguments while also allowing the jurists to directly question the parties. This is designed to be a fusion of the anglo-american adversarial format with the east asian inquisitorial format.
+**How it works:** After a contract has executed, parties to the contract have a designated amount of time to initiate a SNAP, this time period can also be extended by mutual agreement.  From the date the SNAP is initiated, the parties have a window in which to provide the details mentioned above for their Formal Complaint. This is used to create a "Case Brief" containing itemized \(e.g. bulleted\) complaints, written arguments, and optionally itemized additional facts the parties would like to present during the judgement. At the close of this window case briefs are posted to JRS Token holders publicly for review, and are all available to both parties.
 
-This VOTE --&gt; JUSTIFY --&gt; DISCUSS --&gt; VOTE → JUSTIFY model is based on the Delphi Method of collective decision making. The Delphi Method has been shown to be very effective at surfacing hidden profiles while producing judgements that have broad support and alignment with facts.
+Jurists may access any case brief without obligation to participate in the case, but must pass a Captcha test \(or equivalent\) before being given access to further evidence, or logs. If an individual chooses to join a SNAP as a participating Jurist they are given access to further evidence and logs, and are required to cast their initial vote using only the information available. When casting their vote an arbitrator must cite justification from at least one of \(a\) an item of Hard Evidence, \(b\) an item of a Formal Complaint, or \(c\) an item of Supplementary Evidence. As part of their judgement, an arbitrator must also provide a short \(255 characters or less\) summary of their opinion. After submitting the above, their "Independent Judgement," an arbitrator formally becomes a Jurist for the given SNAP.
+
+Independent Judgements remain hidden from both the disputing parties and other Jurists. However, the number of Jurists that have joined the SNAP is displayed publicly. At the end of a designated period of time the case details are taken down, and open discussion begins among participants.
+
+At this time all participants are made privy to the SNAP’s tally of votes, the tally of evidence selected as justification, and the Independent Opinions, all of which are anonymized. During discussion, Jurists make material contributions to the discussion in the form of: questions posed for other participants, submission of general comments, citations of case history, comments on any item in the Case Brief or supporting materials, written responses to any of the above and to other written responses, and atomic responses \(up/down vote\) to any of the above.
+
+After a designated window discussion is closed, at which point interaction between and among all participants ceases for a period of deliberation. In this time, Jurists have an opportunity to independently review the case deatials and all additional supporting and discussion materials. After deliberation, each Jurist must cast a final vote, select one or more pieces of supporting evidence, and compose a written summary of their opinion no longer than 500 characters \(collectively, their "Informed Judgement.\) Until the close of the deliberation period all Informed Judgements are hidden from other parties as they are submitted.
+
+At the end of the deliveration period, all of the Informed Judgements are closed for modification, and each Jurist is immediately placed into a group of peers \(a “Consensus Group”\) who voted in favor of the same disputing party. Each Consensus Group is firewalled from both the other Consensus Group and from the disputing party. Each group will have a designated amount of time to confer amongst its members and write an opinion on their ruling \(the “Final Opinion”\). The Jurist with the highest reputation within an individual Consensus Group is automatically selected as the leader of their cohort. Optionally, the default lead Jurist may appoint another Jurist within their Consensus Group as the opinion writer.
+
+During opinion composition, all Jurists retain access to all case brief, evidence, and discussion details. The Jurists of a Consensus Group collaborate by making material contributions in the same form as the earlier discussion. Before the end of the opinion composition, each Consensus Group compiles these Opinion Artifacts into a Final Opinion.
+
+With the submission of the Final Opinion, communication between all participants ceases, and the Final Opinions from both Consensus Groups are delivered to all parties along with a breakdown of the final voting split. All voting data, discussion records, and opinions are additionally attached to the contract recored in case of further escalation.
+
+At this point the disputing parties are again given access to the CDK resolution tools to implement an agreed upon dispute solution.
 
 ### PANEL \(Peremptory Agreement for Neutral Expert Litigation\) Judgement
 
-**Problem it solves:** When a dispute is complex or there is a lot at stake, you want a small number of people to take their time examining all of the evidence, and hearing all of the arguments.
+**Problem it solves:** While the SNAP procedure provides assistance is dispute resolution, it does not rise to the level of due process required for a binding judgement under United Nations standards. When a dispute is complex, there is a lot at stake, and the decision if final, you want small number of people to take their time examining all of the evidence, and hearing all of the arguments.
 
-  
-**How Juris moves:** The party\(s\) to the contract requesting the PANEL pay the market rate to convene the panel. 5% of that fee goes to the Foundation,  the rest is split equally amongst the Jurists on the panel.  
-From the parties perspective: For complex disputes that require deep attention of the most skilled jurists, it’s worth paying for a PANEL.
+**How Juris moves:** The party\(s\) to the contract requesting the PANEL pay the market rate to convene a panel. 5% of that fee goes to the Foundation,  the rest is split equally amongst the Jurists on the panel at the close of proceedings.
 
-  
-**From the Jurists’ perspective:** This is where the real money is. But in order to get put on a panel, you need to have very high rep. All of that work spent in SNAP’s is paying off here!
+**From the parties perspective:** For complex disputes that require deep attention of the most skilled jurists, or to break a deadlock with a final binding decision, it’s worth paying for a PANEL.
 
-  
-**How it works:** The party\(s\) requesting the PANEL sends a PANEL transaction with JRS attached into the contract. All of the assets in the contested contract are moved into escrow. Based on the domain specialties marked on the arbitration agreement, a panel of 3 arbitrators is randomly selected. The PANEL has 7 days to hear arguments and answer questions. At the end of those 7 days, they each issue a judgment. The Majority order is binding and causes the escrow to release the smart contract assets in accordance with the order.
+**From the Jurists’ perspective:** This is more labor intensive, but this is where the real money is, as fees are higher and split among fewer Jurists. In order to get put on a panel, you need to have High Jurist standing. All of that work spent in SNAP’s is paying off here!
+
+**How it works: **Similar to normal court systems, this is considered an escalation from the lower SNAP system. Parties cannot proceed to a PANEL judgement without first running a SNAP. If one or both parties are unable to use the assistance of the SNAP to come to a resolution, they may choose to escalate to a PANEL judgement by indicating their intent to escalate and attaching the required JRS. At this time all other parties to the contract will be notified of the case escalation, and their required actions. If, at any time in the PANEL process a party fails to meet a required deadline, a default judgement may be declared, at the discretion of the High Jurists.
+
+_Arbitration Panel Selection:_ Based on the domain specialties marked on the arbitration agreement, a list of ten available High Jurists will be provided to each party. The High Jurists will be notified at this time of their inclusion on this short list, will have access to the case brief, and will be invited to remove themselves if there is a potential conflict of interest. They will have 30 days from the delivery of the High Jurist list after which they will be required to select three, or submit three alternatives, numbered by preference. If a party chooses alternative arbitrators, any arbitrator not registered for the Juris will be required to register and provide proof of credentials before the end of the 30 day period. At this time each list of preferred High Jurists will be shared with the opposing party, which will have 15 days to eliminate up to two of the opposing party's choices. The remaining Jurists will select a third, neutral, "Presiding High Jurist," to complete a final panel of three High Jurists. If either party fails to provide a list within the designated 30 day period the Juris system will randomly assign an available High Jurist.
+
+_Hearing Process:_ All previous SNAP materials, opinions, evidence, and claims will be made available for review by panel high jurists. The jurists will be able to ask any questions of either party, and parties will be able to provide answers. If relevant this may extend as far as the coordination of video based hearings. At this time the parties will be allowed, at the discretion of the Jurists, to submit additional evidence, make additional arguments or counter arguments, provide witnesses, and amend previous communications or requests. Any additional materials, or communications will be made available to all other parties at the time of submission. At this stage representation will be allowed.
+
+_Judgement:_ At the end of 30 days \(unless an extension is requested or granted by the panel\) the High Jurists will render a binding judgement on the facts of the case. Through the Juris dashboard the Jurists will input their decision, and the CDK will will unlock the smart contract, and execute the code, automatically enforcing the judgement.
+
