@@ -94,4 +94,4 @@ PANEL's don't have as many opertunitres for Juritst to show off . . . . [yada ya
 
 
 
-[^1] Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 (2005): 337-358. https://link.springer.com/article/10.1007/s10796-005-4807-3
+[^1]:[Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 (2005): 337-358.](https://link.springer.com/article/10.1007/s10796-005-4807-3)

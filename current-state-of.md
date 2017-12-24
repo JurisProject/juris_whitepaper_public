@@ -16,7 +16,7 @@ Part of the initial excitement for smart contracts was the elimination of ambigu
 
 Juris is first-and-foremost a tool for these platforms to get out of the side business of dispute resolution, so that they can focus on their core value. By integrating Juris in to their platform, they are outsourcing a highly technical, possibly existential problem.
 
-[^1]:[https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc](https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc0
+[^1]:[https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc](https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc)
 
 [^2]:[https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true](https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true)
 
