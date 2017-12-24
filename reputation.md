@@ -46,9 +46,9 @@ _Open:_ Rep algorithm and log of rep-changing transactions are both public. If r
 
 Earning rep legitimately should be straightforward, although difficult.
 
-\_Straightforward: K\_nowledge of the repchain's implementation is neither necessary nor advantageous for earning rep.
+_Straightforward:_ Knowledge of the repchain's implementation is neither necessary nor advantageous for earning rep.
 
-\_Legitimate: A\_n individual who, using a single identity, is committed to resolving smart contract disputes through the fair and impartial application of knowledge and judgement, is **earning rep legitimately**.
+_Legitimate:_ An individual who, using a single identity, is committed to resolving smart contract disputes through the fair and impartial application of knowledge and judgement, is **earning rep legitimately**.
 
 \_Difficult: E\_arning rep requires considerable human action.
 
