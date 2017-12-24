@@ -50,7 +50,7 @@ _Straightforward:_ Knowledge of the repchain's implementation is neither necessa
 
 _Legitimate:_ An individual who, using a single identity, is committed to resolving smart contract disputes through the fair and impartial application of knowledge and judgement, is **earning rep legitimately**.
 
-\_Difficult: E\_arning rep requires considerable human action.
+_Difficult:_ Earning rep requires considerable human action.
 
 ### Unachievable When Unwarranted
 
