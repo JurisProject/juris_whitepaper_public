@@ -38,9 +38,9 @@ Rep must be readily calculable, deterministic, and open.
 
 _Readily calculable:_ This should not be conflated with "computationally or algorithmically simple." Instead, we mean **right-sized for the execution engine**. If the execution engine is Ethereum, then "readily calculable" does translate to "computationally simple" due to the cost of computing on the Ethereum platform.
 
-\_Deterministic: R\_epeatable rep computations. Starting from the same base state, the rep algorithm will always compute the same rep for a given point in the rep transaction log.
+_Deterministic:_ Repeatable rep computations. Starting from the same base state, the rep algorithm will always compute the same rep for a given point in the rep transaction log.
 
-\_Open: R\_ep algorithm and log of rep-changing transactions are both public. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores quickly and easily.
+_Open:_ Rep algorithm and log of rep-changing transactions are both public. If rep computations are readily calculable and deterministic, and the rep transaction logs available and the algorithm known, then anybody can verify the accuracy of reputation scores quickly and easily.
 
 ### Achievable When Warranted
 
