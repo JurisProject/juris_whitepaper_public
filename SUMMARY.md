@@ -1,9 +1,7 @@
 # Summary
 
 * [Authors](README.md)
-
 * [Introduction](introduction.md)
-
 * [Value Proposition](value-proposition.md)
 * [Contracts and Contract Law](contracts.md)
 * [Non-Technical Overview](protocol-non-technical.md)
