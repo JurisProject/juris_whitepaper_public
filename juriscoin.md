@@ -1,6 +1,6 @@
 ## JurisCoin
 
-The Juris Protocol will use a proprietary blockchain based token \(JRS\) to incentivize developers and Jurists to be involved and improve the system. The use of this "tokenization" of resources allows us to provide the Protocol as an open source project. But with the boom of ICOs and the "gold rush" of tokenized projects it is worth addressing the relevance of JRS in detail.
+The Juris Protocol will use a proprietary blockchain based token \(JRS\) to incentivize developers and Jurists to be involved and improve the system. The use of this "tokenization" of resources allows us to provide the Protocol as an open source project. But with the boom of ICOs and tokenized projects it is worth addressing the relevance of JRS in detail.
 
 ### Compatibility
 
