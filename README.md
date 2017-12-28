@@ -1,6 +1,6 @@
 ## Juris Adjudication Protocol
 
-Last Updated: 12.24.2017
+Last Updated: 12.28.2017
 
 [https://juriscoin.io](https://juriscoin.io)
 
