@@ -8,10 +8,10 @@
 * [Real World Use Cases](use-cases.md)
 * [The Current State of The Art](current-state-of.md)
 * [The Juris Framework](framework.md)
+* [JurisCoin](juriscoin.md)
 * [Reputation Blockchains](reputation.md)
 * [Juris Foundation Governance](governance.md)
 * [Attack Resistance](attack-resistance.md)
 * [Conclusion](conclusion.md)
-* [Looking Forward](looking-forward.md)
 * [JurisCoin](juriscoin.md)
 
