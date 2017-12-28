@@ -2,7 +2,7 @@
 
 * [Authors](README.md)
 * [Introduction](introduction.md)
-  * [Abstract](/introduction.md/#introduction)
+  * [Abstract](/introduction.md/#abstract)
 * [Value Proposition](value-proposition.md)
 * [Contracts and Contract Law](contracts.md)
 * [Non-Technical Overview](protocol-non-technical.md)
@@ -14,6 +14,4 @@
 * [Attack Resistance](attack-resistance.md)
 * [Conclusion](conclusion.md)
 * [Looking Forward](looking-forward.md)
-
-
 
