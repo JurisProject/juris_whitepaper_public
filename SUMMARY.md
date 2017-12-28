@@ -13,5 +13,5 @@
 * [Juris Foundation Governance](governance.md)
 * [Attack Resistance](attack-resistance.md)
 * [Conclusion](conclusion.md)
-* [JurisCoin](juriscoin.md)
+* [Looking Forward](looking-forward.md)
 
