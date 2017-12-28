@@ -1,10 +1,10 @@
 # Summary
 
-[Authors](README.md)
+* [Authors](README.md)
 
-[Introduction](introduction.md)
+* [Introduction](introduction.md)
 
-[Value Proposition](value-proposition.md)
+* [Value Proposition](value-proposition.md)
 
 [Contracts and Contract Law](contracts.md)
 
@@ -25,6 +25,4 @@
 [Conclusion](conclusion.md)
 
 [Looking Forward](looking-forward.md)
-
-
 
