@@ -13,6 +13,5 @@
 * [Attack Resistance](attack-resistance.md)
 * [Conclusion](conclusion.md)
 * [Looking Forward](looking-forward.md)
-
-
+* [JurisCoin](juriscoin.md)
 
