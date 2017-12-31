@@ -1,4 +1,4 @@
-## Contracts
+## Background, Motivations, & Opportunities
 
 ### Contract Law
 
@@ -49,19 +49,4 @@ Through decades of software development and the composition of billions of sourc
 The second inference—that bugs are committed by experienced and novice programmers alike—has grave implications for the future of smart contracts. After all, smart contracts are just software. It would be an extraordinary claim to suggest that the increased adoption and correspondingly increased sophistication of smart contracts will reduce the incidence of bugs, when history has shown us otherwise. We can expect quite the opposite, actually; as smart contracts are adopted more widely, they’ll be applied to increasingly difficult problem domains, with an increase in complexity to match. Software defects will continue to be a fact of life, and will worm their way into smart contracts—often, with dire consequences. They already have.
 
 That’s not to say that we should throw our hands up in defeat. On the contrary, the blockchain development community can \(and must\) work hard to limit the rate and potential impact of bugs in both smart contracts and the underlying blockchain platforms. These two mitigating strategies \(limiting the rate of bugs to the fullest extent possible, and limiting the impact of bugs\) are two distinct topics that deserve their own treatment.
-
-  
-
-
-[^1]:[https://en.wikipedia.org/wiki/Alternative\_dispute\_resolution](https://en.wikipedia.org/wiki/Alternative_dispute_resolution)
-
-[^2]:[http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html](http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html)
-
-[^3]:[https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards](https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards)
-
-[^4]:[https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf](https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf)
-
-[^5]:[https://www.tricentis.com/resource-assets/software-fail-watch-2016/](https://www.tricentis.com/resource-assets/software-fail-watch-2016/)
-
-
 
