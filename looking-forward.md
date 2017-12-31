@@ -14,11 +14,13 @@ Developers involved with the project will be incentivized through JRS rewards fo
 
 ### AI Arbitration
 
-While the Juris Foundation has no specific plans at this time, we would be remiss were we not to address a frequent corollary to blockchain technology: artificial intelligence and machine learning. 
+While the Juris Foundation has no specific plans at this time, we would be remiss were we not to address a frequent corollary to blockchain technology: artificial intelligence and machine learning.
 
-Activity on the Juris protocol, and associated reputation chains, would amount to a source of judicial, dispute, and smart contract related data like the world has never seen. Anyone who knows AI/ML knows that data is an important crux of application. Things learned from Juris Protocol data, with applied AI/ML, could have an impact on justice beyond current comprehension.
+Activity on the Juris protocol, and associated reputation chains, would amount to a source of judicial, dispute, and smart contract related data like the world has never seen. Anyone who knows AI/ML knows that data is an important crux of their application. Things learned from Juris Protocol data, with applied AI/ML, could have an impact on justice, and judicial practice beyond current comprehension.
 
-### Beyond arbitration
+### Beyond Arbitration
 
-In preperation for a trial, lawyers will often 'war game' a case. Generating a model of everything that could happen at a trial, as well as modeling thier optimal resonse. These war games are often slow, expensive, and of very low quailty. By descibing thier war game in terms of a smart contract, they could quickly and cheaply croud source opion generation. There are many similar uses for the juris platform and we will expand upon them in future blogposts.
+In preparation for a trial, lawyers will often 'war game' a case. The art of trial law is less in the details and the evidence, and more in the way a story is presented to a jury -- there's a reason that "courtroom drama" is a consistently popular television and movie genre. Mock trial companies, and jury selection companies make a pretty penny providing services to aid in this version of trial preparation. Lawyers do their best to use these tools to test different variables in their story, and how the best select a jury to hear that story. Yet these "war games" are often slow, expensive, inaccessible to weaker parties, and still provide data of limited statistical relevance.
+
+In this context, with minimal repurposing, the Juris Platform could provide a solution. The SNAP could be used to test different arguments and possible presentation of trial facts on scale larger by factors compared to what a mock trail company might provide. And a greatly reduced price. What's more, the system could, by filtering for Novice jurists with no previous qualifications, approximate the input of an uninformed jury. This would create increased opportunity for novices to gain experience, while providing trial lawyers with a testing ground providing data from both professionals \(other lawyers\), and novices \(those peers that would make up a jury.\)
 

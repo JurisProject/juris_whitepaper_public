@@ -1,6 +1,6 @@
 # Summary
 
-* [Authors](README.md)
+* [Authors & Contact Information](README.md)
 * [Introduction](introduction.md)
 * [Value Proposition](value-proposition.md)
 * [Contracts and Contract Law](contracts.md)
