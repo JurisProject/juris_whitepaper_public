@@ -8,11 +8,11 @@ In the realm of "Silicon Valley," and tech innovation, there is a popular notion
 
 Smart contracts and blockchain technologies evolve the way that transactions and agreements take place between people. Further they hold global promise to allow secure transactions, and enforceable agreements among a class of citizen to which such tools were previous unavailable. But, smart contracts will never truly take hold if they do not arrive at the door of the average person bearing an equally evolved system of fair enforcement and dispute resolution. The innovation behind the first legally binding contract was not simply the idea of an agreement put on paper, but an agreement made enforceable  "by the law of the land." The innovation behind the smart contract further refines the ability of an increasing number of people to access this sort of agreement, but we must realize that these contracts still work in service of humans, and must thus adhere to notions of justice that have so far provided for the scale of cooperation and coordination to which we bear witness today.
 
-Any tool working in service of human cooperation, and for blockchain based technologies and smart contracts to truly take hold, we must acknowledge this basic fact: **disputes happen, **software has bugs, humans disagree, and humans misunderstand, often through no fault of their own. When these disputes occur centuries of refinement, study, and application have shown that the only fair means of resolution
-
-It is the mission of the Juris Foundation, and the goal of the continuing development of the Juris Protocol, to create a decentralized and distributed justice system; a justice system able to provide fair dispute resolution at the scale and accessibility of the internet. For it is only on the back of such a system of fair dispute resolution that the promise of blockchain technology to bring about global democracy might be realized.
+Any tool working in service of human cooperation, and for blockchain based technologies and smart contracts to truly take hold, we must acknowledge this basic fact: **disputes happen, **software has bugs, humans disagree, and humans misunderstand, often through no fault of their own. When these disputes occur centuries of refinement, study, and application have shown that the only fair means of resolution.
 
 > "Whoever controls the courts controls the state." -Aristotle
+
+It is the mission of the Juris Foundation, and the goal of the continuing development of the Juris Protocol, to create a decentralized and distributed justice system; a justice system able to provide fair dispute resolution at the scale and accessibility of the internet. For it is only on the back of such a system of fair dispute resolution that the promise of blockchain technology to bring about global democracy might be realized.
 
 
 
