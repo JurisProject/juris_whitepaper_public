@@ -15,6 +15,6 @@ Should the set of smart contracts that constituted the DAO been constructed with
 ### Mission
 
 To make “smart contracts” on all blockchains safe, robust, and human.  
-To create a protocol and token for fair dispute resolution, justice, and judgement.  
-To make access to justice as efficient, effective, and accessible as the internet.
+To create a protocol, token, and reputation system for fair dispute resolution, justice, and judgement.  
+To make justice as efficient, effective, and accessible as the internet.
 
