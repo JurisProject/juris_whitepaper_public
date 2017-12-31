@@ -1,10 +1,10 @@
 # The Reputation System
 
-## Introduction
+## Proof of Judgement
 
-If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable and experienced individuals. The system must allow for the on-boarding and advancement of new Jurists. Yet, it must do so without sacrificing fairness to inexperienced input on decisions. Additionally the system must require a minimum demonstration of experience for a Jurist to have material impact on case outcome in order to resist attack via mass new account creation.
+If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable and experienced individuals. The system must allow for the on-boarding and advancement of new Jurists. Yet, it must do so without sacrificing fairness to inexperienced input on decisions. Additionally the system must require a minimum demonstration of experience for a Jurist to have material impact on case outcome in order to resist attack.
 
-This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment, while leaning minimally on proof of previous credentials? As a solution to this challenge, we propose a trust framework—a _reputation system_—tightly integrated with the Juris platform, but executed as its own blockchain. In this chapter we explore the existing literature on similar systems, before describing the Juris Reputation Blockchain \(hereafter, the _repchain_\) in detail.
+This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment, while acknowledging, but not overemphasizing proof of previous credentials? As a solution to this challenge, we propose a trust framework—a _reputation system_—tightly integrated with the Juris platform. This framework will be executed as its own blockchain, meant to establish and measure a new metric: _Proof of Judgement. _In this chapter we explore the existing literature on similar systems, before describing the Juris Reputation Blockchain \(hereafter, the _repchain_\) in detail.
 
 ## Background
 

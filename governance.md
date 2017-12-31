@@ -2,7 +2,7 @@
 
 ### Initial Governance
 
-Initially, the platform will be governed in a fashion similar to other open source software projects at their inception: a single leader from the Juris Foundation’s founding team will, amongst other roles, facilitate development, recognize contributions of the community, drive platform consensus, and break deadlocks. For example, direct vote by community members will be used to set technical direction, and anyone can submit pull requests. However, The Foundation will, at the outset, be the sole authority for what updates to the Foundation of the Juris Framework will be manifest.
+Initially, the platform will be governed in a fashion similar to other open source software projects at their inception: a single leader from the Juris Foundation’s founding team will, amongst other roles, facilitate development, recognize contributions of the community, drive platform consensus, and break deadlocks. For example, direct vote by community members will be used to set technical direction, and anyone can submit pull requests. However, The Foundation will, at the outset, be the sole authority for what updates to the master Juris Framework will be manifest.
 
 This model is necessary during the early days of the platform to increase attack resistance until the value of the platform and the resilience for the Juris Reputation System are maturely established. Once they system is sufficiently stable, The Juris Foundation will activate a meritocratic, bicameral liquid democracy to transfer power of governance to the Juris community.
 
@@ -10,7 +10,7 @@ This model is necessary during the early days of the platform to increase attack
 
 Proof-of-Work and Proof-of-Stake are popular and effective governance tools for many blockchain-based communities. They give governance power to those who either bear the cost of maintaining the system or stand to gain the most from its continued success \(respectively\). Therefore they are very effective incentive-alignment tools. Yet they are not without their limitations, namely that they encourage winner-take-all dynamics. Fortunately, the addition of a bicameral liquid democracy ameliorates these shortcomings.
 
-There is a long tradition of separating judicial authority from monied interests. It is an affront to a common sense of justice that a judicial body should be governed by one-token, one-vote \(Proof-of-Stake\) system. As such, historically, judiciaries have governed themselves through bar associations. Rule-setting bodies that constitute “the whole body of lawyers, the legal profession.” Though, without popular oversight, a judiciary run by- and for- the bar would become solipsistic and self-serving.
+There is a long tradition of separating judicial authority from monied interests. It is an affront to a common sense of justice that a judicial body should be governed by one-token, one-vote \(Proof-of-Stake\) system. As such, historically, judiciaries have governed themselves through bar associations: rule-setting bodies that constitute “the whole body of lawyers, the legal profession.” Though, without popular oversight, a judiciary run by- and for- the bar would become solipsistic and self-serving.
 
 Therefore, we propose Juris be governed by a bicameral liquid democracy; one chamber will operate on proof-of-stake the other, by proof-of-judgment. The assent of both chambers will be required to make a change to the master contract that defines the operations of Juris.
 
