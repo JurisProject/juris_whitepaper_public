@@ -2,15 +2,15 @@
 
 ## Proof of Judgement
 
-If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable and experienced individuals. The system must allow for the on-boarding and advancement of new Jurists. Yet, it must do so without sacrificing fairness to inexperienced input on decisions. Additionally the system must require a minimum demonstration of experience for a Jurist to have material impact on case outcome in order to resist attack.
+If Juris is to be the go-to adjudication mechanism for smart contracts, parties must have confidence that their cases are arbitrated fairly by reputable and experienced individuals. The system must allow for the on-boarding and advancement of new Jurists. But, inexperienced input on cases must not result in an unfair outcome. Additionally, in order to resist attack, the system must require a minimum demonstration of experience for a Jurist to have material impact on case outcome.
 
-This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment, while acknowledging, but not overemphasizing proof of previous credentials? As a solution to this challenge, we propose a trust framework—a _reputation system_—tightly integrated with the Juris platform. This framework will be executed as its own blockchain, meant to establish and measure a new metric: _Proof of Judgement. _In this chapter we explore the existing literature on similar systems, before describing the Juris Reputation Blockchain \(hereafter, the _repchain_\) in detail.
+This presents a challenge: how do we gauge fairness and reputability in a decentralized, anonymous, autonomous environment, while acknowledging, but not overemphasizing, proof of previous credentials? As a solution to this challenge, we propose a trust framework—a _reputation system_—tightly integrated with the Juris platform. This framework will be executed as its own blockchain, meant to establish and measure a new metric: _Proof of Judgement. _In this chapter we will explore the existing literature on similar systems, before describing the Juris Reputation Blockchain \(the "repchain"\) in detail.
 
 ## Background
 
-The Juris Repchain is an evolution of existing systems with significant prior art.
+The Juris Repchain is an evolution of existing systems with significant prior art:
 
-In the digital realm, the problem of reputation has been tackled from many angles, and effective execution has contributed to the success of such platforms as Reddit and Stack Overflow. In real world academic and professional context we handle the notion of reputation by issuing credentials like degrees or certifications, tracking notable publications, awards, or recommendations. In the context of justice and the law, there already exists a hierarchy of certification, experience, and reputation. This makes arbitration, and dispute resolution the ideal first case scenario for the implementation of a bespoke repchain.
+In the digital realm, the problem of reputation has been tackled from many angles, and effective execution has contributed to the success of such platforms as Reddit and Stack Overflow. In real world academic and professional context, we handle the notion of reputation by issuing credentials like degrees or certifications, tracking notable publications, awards, or recommendations. In the context of justice and the law, there already exists a hierarchy of certification, experience, and reputation. This makes arbitration and dispute resolution the ideal first case scenario for the implementation of a bespoke repchain.
 
 ### Reputation Systems
 
