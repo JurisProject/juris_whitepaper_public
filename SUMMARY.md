@@ -5,7 +5,7 @@
 * [Value Proposition](value-proposition.md)
 * [Background, Motivations, & Opportunities](contracts.md)
 * [Non-Technical Overview](protocol-non-technical.md)
-* [Real World Use Cases](use-cases.md)
+* [Real World Use](use-cases.md)
 * [The Current State of The Art](current-state-of.md)
 * [The Juris Framework](framework.md)
 * [JurisCoin](juriscoin.md)
