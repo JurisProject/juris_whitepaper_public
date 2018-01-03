@@ -6,19 +6,19 @@ All disputes will be triggered manually, and the ability to trigger a dispute wi
 
 ### Contract Lock
 
-The moment that a dispute is triggered the CDK code freezes smart contract processes. The contract code does not proceed forward. If the contract is a public contract, or a contract with a massive number of parties, and a previously agreed upon dispute threshold is reached; processes are frozen and additional parties are unable to access the contract until the disputes are resolved.
+The moment that a dispute is triggered the CDK code freezes smart contract processes. The contract code does not proceed forward. If the contract is a public contract, or a contract with a massive number of parties, and a previously agreed upon dispute threshold is reached, processes are frozen and additional parties are unable to access the contract until the disputes are resolved.
 
 ### Evidence, Arguments, and Discussion
 
-When a dispute is triggered, the triggering party will be required by the Juris platform to include itemized claims, their desired resolution, and their initial arguments for that resolution \(together, the "Formal Complaint."\) Additionally they will be able to provide any details or evidence regarding the case that may fall outside of the smart contract logs \("Supplementary Evidence."\) All of these details will be attached to the smart contract through the CDK, and will follow the case through the Juris system.
+When a dispute is triggered, the triggering party will be required by the Juris platform to include itemized claims, their desired resolution, and their initial arguments for that resolution \(together, the "Formal Complaint"\). Additionally, they will be able to provide any details or evidence regarding the case that may fall outside of the smart contract logs \("Supplementary Evidence"\). All of these details will be attached to the smart contract through the CDK, and will follow the case through the Juris system.
 
-The counter-party to the dispute will have a designated amount of time to respond to the claims of the triggering party. They will be required to provide a direct response to each item of the claim, and their initial arguments for their preferred resolution. Here they will also be able to provide any additional details or evidence for their side that may fall outside of the smart contract logs. If there is no response from the counter-party, and a response is required by the resolution mechanism, the system will issue a default judgement in the favor of the claimant.
+The counter-party to the dispute will have a designated amount of time to respond to the claims of the triggering party. They will be required to provide a direct response to each item of the claim, as well as their initial arguments for their preferred resolution. Here they will also be able to provide any additional details or evidence for their side that may fall outside of the smart contract logs. If there is no response from the counter-party \(and one is required to proceed,\) the system may issue a default judgement in the favor of the claimant.
 
-The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence, will take place via resolution processes outlined below.
+The argument submission process will be locked following the response from the defending party, and the submission of additional evidence will be locked before the case proceeds to open discussion. New evidence may be submitted with majority High Jurist approval. Further discussion and questioning regarding the case, case details, and evidence will take place via resolution processes outlined below.
 
 ### Holding Wallets
 
-As soon as a Formal Complaint is filed, the CDK code generates a neutral blockchain wallet address into which the funds associated with the contract are moved. The funds can only be released from this wallet via the Juris CDK, and the use of one of the available resolution mechanisms. The neutral wallet address is maintained internally by the CDK code within the smart contract itself and if not known or accessible to contract parties, the Juris Foundation, or Jurists involved at later dates.
+As soon as a Formal Complaint is filed, the CDK code generates a neutral blockchain wallet address into which the funds associated with the contract are moved. The funds can only be released from this wallet via the Juris CDK, and the use of one of the available resolution mechanisms. The neutral wallet address is maintained internally by the CDK code within the smart contract itself and is not known, or accessible to contract parties, the Juris Foundation, or Jurists involved at any time.
 
 ### Smart Contract Logs \("Hard Evidence"\)
 
@@ -30,21 +30,21 @@ One of the most critical pieces of evidence provided to the Jurists will be the 
 
 **Problem it solves:** Something has gone wrong with a smart contract. All parties to the contract agree what should happen next. This could be caused by a bug, a broken oracle feed, or any other unforeseen event. Whether right away, or after brief negotiation the parties have a solution and they agree that the solution is fair.
 
-**How Juris moves:** No Juris changes hands when the self-mediation toolkit is activated, but all funds in the initial contract are locked. The parties “pre-paid” for them when they signed the contract and attached their JRS.
+**How Juris moves:** No JRS changes hands when the self-mediation toolkit is activated, but all funds in the initial contract are locked.
 
-**From the parties perspective:** This is a free and fast way to amicably resolve a misbehaving contract.
+**From the parties' perspective:** This is a free and fast way to amicably resolve a contract that has resulted in a dispute or undesired outcome.
 
-**From the Jurists’ perspective:** This keeps trivial business out of the docket.
+**From the Jurists’ perspective:** This keeps trivial matters off the docket.
 
-**How it works:** The incorporation of the Juris CDK allows the protocol to alter the outcome of a smart contract. Through the Juris dashboard the parties to the contract have access a package of self mediation tools which provide for the implementation of some basic operations to designate a different outcome for the smart contract, \(void the contract, give all assets to party A, etc\). These tools will be totally open source and free.
+**How it works:** The incorporation of the Juris CDK allows the protocol to alter the outcome of a smart contract. Through the Juris dashboard, the parties to the contract have access a package of self mediation tools, which provide for the implementation of basic operations to designate a different outcome for the smart contract, \(void the contract, give all assets to party A, etc\). These tools will be totally open source and free.
 
 ### SNAP \(Simple Neutral Arbitrator Poll\) Judgement
 
-**Problem it solves:** If parties are unable to settle on an outcome on their own, and believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they should opt for a SNAP.
+**Problem it solves:** If parties are unable to settle on an outcome on their own, and believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they can opt for a SNAP.
 
-**How Juris moves:** The party\(s\) to the contract requesting the SNAP pay whatever they want to activate the SNAP \(above a minimum covered by the already attached JRS.\) 5% of that fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who take part in the SNAP.
+**How Juris moves:** The minimum fee for a SNAP is covered by the pre-attached JRS, but the party initiating the SNAP may also attach additional JRS to incentivize Jurists to take the case. 5% of the fee goes to the Juris Foundation, the rest is split equally amongst all of the Jurists in good standing who take part in the SNAP.
 
-**From the parties perspective:** It’s a cheap way to get a fast judgement and a lot of input from different perspectives. It may have the power to quickly resolve a negotiation stalemate.
+**From the parties' perspective:** This is a cheap way to get a fast judgement and a lot of input from different perspectives. It may have the power to quickly resolve a negotiation stalemate.
 
 **From the Jurists’ perspective:** SNAP’s don’t pay as well, but they do offer a lot of opportunities to earn reputation. Jurists are always on the hunt for a contract where their unique expertise will be decisive. Since everyone has to split the arbitration fee, it pays to look into disputes that no one else is looking at. You need to pay attention, vote reasonably, and contribute if you’re going to increase or maintain your standing.
 
