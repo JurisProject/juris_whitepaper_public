@@ -1,4 +1,4 @@
-## Attack Resistance
+## System Attack Resistance
 
 ### Sybil Attack
 
