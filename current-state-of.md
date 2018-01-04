@@ -12,7 +12,7 @@ Released as a concept whitepaper in 2017[^3], Kleros represents a more focused l
 
 #### Platform Specific Dispute Resolution Tools
 
-Part of the initial excitement for smart contracts was the elimination of ambiguity and human judgement from the process of contract execution. But most of the community has retreated from that view[^4] And disputes in many of today's most promising blockchain applications involve matters of judgement \(crowd-funding, freelancing, content licensing, etc\). Did a crowd-funded team hit their milestone? Did a freelancer deliver what they promised? All judgement. 
+Part of the initial excitement for smart contracts was the elimination of ambiguity and human judgement from the process of contract execution. But most of the community has retreated from that view, and disputes in many of today's most promising blockchain applications involve matters of judgement \(crowd-funding, freelancing, content licensing, etc\). Did a crowd-funded team hit their milestone? Did a freelancer deliver what they promised? All judgement. 
 
 The best players in each of these spaces have recognized that there will be disputes, and have outlined dispute resolution procedures. However, these platform specific tools are often customer support oriented and not built to sound legal standards. Many lack any incentives, many are vulnerable to simple attack patterns, and all necessarily use members of their general community, or support personnel to adjudicate disputes. Not only do these systems frequently fail, or result in unsatisfactory wait times, but the decisions delivered by customer support or the community will still be open to legal challenge after the fact. This then becomes a source of possible liability for the platform itself.
 
@@ -23,6 +23,4 @@ Juris is first-and-foremost a tool for these platforms to get out of the busines
 [^2]:  [https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true](https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true)
 
 [^3]:  [https://medium.com/kleros/kleros-a-decentralized-justice-protocol-for-the-internet-38d596a6300d](https://medium.com/kleros/kleros-a-decentralized-justice-protocol-for-the-internet-38d596a6300d)
-
-[^4]:  \#
 

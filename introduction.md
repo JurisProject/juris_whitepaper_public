@@ -23,8 +23,3 @@ Had the set of smart contracts that constituted the DAO been constructed with an
 
 
 
-
-
-
-
-
