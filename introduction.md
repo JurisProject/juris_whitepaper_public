@@ -20,7 +20,11 @@ Had the set of smart contracts that constituted the DAO been constructed with an
 
 
 
-[^1]: [https://en.wikipedia.org/wiki/The\_DAO\_\(organization\)](https://en.wikipedia.org/wiki/The_DAO_%28organization%29ethereum)
 
-[^2]: [https://www.coindesk.com/ethereum-executes-blockchain-hard-fork-return-dao-investor-funds/](https://www.coindesk.com/ethereum-executes-blockchain-hard-fork-return-dao-investor-funds/)
+
+
+
+
+
+
 
