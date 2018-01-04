@@ -19,7 +19,7 @@ Had the set of smart contracts that constituted the DAO been constructed with an
 * To make justice as efficient, effective, and accessible as the Internet.
 
 
-
+[^1]: 
 
 
 
