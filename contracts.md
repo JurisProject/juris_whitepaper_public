@@ -32,7 +32,7 @@ While creating Juris, we hold it as truth that peaceful resolution of disagreeme
 
 ### Bringing Rule of Law to the World
 
-> “The rule of law and development are strongly interrelated and mutually reinforcing\[.\] \[T\]he advancement of the rule of law at the national and international level is essential for sustained and inclusive economic growth, sustainable development, the eradication of poverty and hunger and the full realization of all human rights and fundamental freedoms, including the right to development, which in turn reinforce\[s\] the rule of law”.
+> The rule of law and development are strongly interrelated and mutually reinforcing\[.\] \[T\]he advancement of the rule of law at the national and international level is essential for sustained and inclusive economic growth, sustainable development, the eradication of poverty and hunger and the full realization of all human rights and fundamental freedoms, including the right to development, which in turn reinforce\[s\] the rule of law.
 
 **- UN Declaration on Rule of Law**
 
@@ -52,20 +52,5 @@ The Juris platform seeks to provide global citizens with viable and reliable acc
 
 Through decades of software development and the composition of billions of source lines of code, by millions of programmers, at least one maxim has held true: where there is software, we will find bugs. Estimates vary, but at least one thorough study suggests that software defects cost 1.1 trillion dollars in the year 2016 alone.[^7] Browse through the commit history of any one of thousands of open source projects on GitHub, and it will be readily apparent that bugs are both a\) pervasive and b\) not limited to novice programmers.
 
-The second inference—that bugs are committed by experienced and novice programmers alike—has grave implications for the future of smart contracts. After all, smart contracts are just software. It would be an extraordinary claim to suggest that the increased adoption and correspondingly increased sophistication of smart contracts will reduce the incidence of bugs when history has shown us otherwise. We can expect quite the opposite, actually; as smart contracts are adopted more widely, they’ll be applied to increasingly difficult problem domains, with an increase in complexity to match. Software defects will continue to be a fact of life, and will worm their way into smart contracts—often, with dire consequences.  
-
-
-[^1]:  [https://en.wikipedia.org/wiki/Alternative\_dispute\_resolution](https://en.wikipedia.org/wiki/Alternative_dispute_resolution)
-
-[^2]:  [https://en.wikipedia.org/wiki/Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)
-
-[^3]:  [https://en.wikipedia.org/wiki/M-Pesa](https://en.wikipedia.org/wiki/M-Pesa)
-
-[^4]:  [http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html](http://www.uncitral.org/uncitral/en/uncitral_texts/arbitration/NYConvention_status.html)
-
-[^5]:  [https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards](https://en.wikipedia.org/wiki/Convention_on_the_Recognition_and_Enforcement_of_Foreign_Arbitral_Awards)
-
-[^6]:  [https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf](https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf)
-
-[^7]:  [https://www.tricentis.com/resource-assets/software-fail-watch-2016/](https://www.tricentis.com/resource-assets/software-fail-watch-2016/)
+The second inference—that bugs are committed by experienced and novice programmers alike—has grave implications for the future of smart contracts. After all, smart contracts are just software. It would be an extraordinary claim to suggest that the increased adoption and correspondingly increased sophistication of smart contracts will reduce the incidence of bugs when history has shown us otherwise. We can expect quite the opposite, actually; as smart contracts are adopted more widely, they’ll be applied to increasingly difficult problem domains, with an increase in complexity to match. Software defects will continue to be a fact of life, and will worm their way into smart contracts—often, with dire consequences.
 
