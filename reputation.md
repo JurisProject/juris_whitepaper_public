@@ -20,7 +20,7 @@ A _reputation system_ is a program that enables a community to collaboratively d
 
 The concept of measurable \(or computable\) trust has been studied extensively within the contexts of sociology and computer science, and is known as a _trust metric_. Defined simply, a _trust metric_ is the quantification of the emotion _Trust_. That is, the extent to which one party expects that any other party will do as they promise. However, Trust, being both abstract and subjective, has no formal or universal identity as a numerical quantity. It follows that trust metrics are proxies; they are numerical quantities that attempt to indicate the magnitude of trust between parties in a given context.
 
-The context dependence of trust metrics means that it's exceedingly difficult to directly map existing trust metrics to new systems, while retaining the original metric's meaning[^1]. Therefore, the details of our trust metric will require a lot of tuning and adjustment to the use case, and as Juris matures. Before giving detailed implementation specifics, we will define our priorities and process.
+The context dependence of trust metrics means that it's exceedingly difficult to directly map existing trust metrics to new systems, while retaining the original metric's meaning[^17]. Therefore, the details of our trust metric will require a lot of tuning and adjustment to the use case, and as Juris matures. Before giving detailed implementation specifics, we will define our priorities and process.
 
 ## Priorities for The Juris Repchain
 
@@ -126,6 +126,4 @@ All of the implicit endorsements produced during dispute mediation will be model
 Simple point-based karma systems are vulnerable to many classes of attack. For example, it would be trivial to attack the Repchain by submitting fraudulent low stakes contracts and using sibyl accounts to mediate them. But, by using a graph based Rep score these fraudulent methods can be detected and factored out of the Rep calculation. A linear increase in fraudulent graph-based Rep would require an exponential increase in the size of the attack.
 
 Nodes mining the Repchain would preform this graph analyses as part of their Proof-of-Work. It's much easier to check the result of a graph analysis, O\(n\), than it is to preform the analysis, O\(n^3\). This makes it a good fit for distributed proof of work.
-
-[^1]:  [Ziegler, Cai-Nicolas, and Georg Lausen. "Propagation models for trust and distrust in social networks." Information Systems Frontiers 7.4-5 \(2005\): 337-358.](https://link.springer.com/article/10.1007/s10796-005-4807-3)
 

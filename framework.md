@@ -40,7 +40,7 @@ One of the most critical pieces of evidence provided to the Jurists will be the 
 
 ### SNAP \(Simple Neutral Arbitrator Poll\) Judgement
 
-_Based on the Delphi method._[^2]
+_Based on the Delphi method._[^15]
 
 **Problem it solves:** If parties are unable to settle on an outcome on their own, and believe that a disagreement in their contract will be resolved by a quick review of the facts by a third party, they can opt for a SNAP.
 
@@ -70,7 +70,7 @@ At this point the disputing parties are again given access to the CDK resolution
 
 ### PANEL \(Peremptory Agreement for Neutral Expert Litigation\) Judgement
 
-_Based on UNCITRAL Arbitration Rules_[^2]
+_Based on UNCITRAL Arbitration Rules_[^16]
 
 **Problem it solves:** While the SNAP procedure provides assistance in dispute resolution, it does not rise to the level of due process required for a binding judgement under United Nations standards. Disputes reaching this level will be complex, will have a lot at stake, or will require binding legal resolution. UN rules thus require a small number of people to take their time examining all of the evidence, and hearing all of the arguments.
 
@@ -87,10 +87,4 @@ _**Arbitration Panel Selection:**_ Based on the domain specialties marked on the
 _**Hearing Process:**_ All previous SNAP materials, opinions, evidence, and claims will be made available for review by panel high jurists. The High Jurists will be able to ask any questions of either party, and parties will be required to provide answers \(and may be found in default if they fail to respond.\) If relevant, this may extend as far as the coordination of video-based hearings. At this time, the parties will be allowed, at the discretion of the Jurists, to submit additional evidence, make additional arguments or counter arguments, provide witnesses, and amend previous materials. Any new materials, or communications, will be made available to all other parties at the time of submission.
 
 _**Judgement:**_ At the end of 30 days, \(unless an extension is requested or granted by the panel,\) the High Jurists will render a binding judgement on the facts of the case. Through the Juris dashboard the Jurists will input their decision, and the CDK will unlock the smart contract, and execute the code, automatically enforcing the judgement.
-
-
-
-[^1]:  [https://en.wikipedia.org/wiki/Delphi\_method](https://en.wikipedia.org/wiki/Delphi_method)
-
-[^2]:  [https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf](https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf)
 
