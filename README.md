@@ -1,5 +1,7 @@
 ## Juris Adjudication Protocol
 
+Justitia usquam ex nusquam \| Justice everywhere, from nowhere.
+
 Last Updated: 01.04.2018
 
 [https://juriscoin.io](https://juriscoin.io)
