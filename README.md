@@ -1,12 +1,12 @@
 #### **Juris Adjudication Protocol**
 
-###### Blockchain Smart Contract Dispute Resolution
+###### Human-Based Smart Contract Dispute Resolution
 
 Adam J. Kerpelman, JD // Ramsay Brown // Akash Desai // Matt Mayberry // Jake Dodd  // Vince Enachescu  // T. Dalton Combs, PhD
 
-[team@juriscoin.io](mailto:team@juriscoin.io) 
+[team@juriscoin.io](mailto:team@juriscoin.io)
 
-https://discord.gg/VQeAyeZ 
+[https://discord.gg/VQeAyeZ](https://discord.gg/VQeAyeZ)
 
 ---
 

@@ -8,7 +8,7 @@ The breach was significant enough to drastically undermine investor confidence i
 
 Had the set of smart contracts that constituted the DAO been constructed with an adjudication platform available as insurance \(in the way court systems safeguard ink and paper contracts\) the events that unfolded, ranging from the loss of market cap to the “Hard Fork” of Ethereum, may have been preventable. It is to avoid catastrophes like these, and engender a better confidence in smart contracts at large, that we propose **Juris**: a decentralized adjudication platform for blockchain smart contracts.
 
-### Mission
+### The Juris Mission
 
 * To make “smart contracts” on all blockchains safe, robust, and human.  
 * To create a protocol, token, and reputation system for fair dispute resolution, justice, and judgement.  
