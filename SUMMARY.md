@@ -2,6 +2,7 @@
 
 * [Abstract](README.md)
 * [Introduction](introduction.md)
+* [Mission](mission.md)
 * [Value Proposition](value-proposition.md)
 * [Background, Motivations, & Opportunities](contracts.md)
 * [Non-Technical Overview](protocol-non-technical.md)
@@ -14,5 +15,5 @@
 * [Attack Resistance](attack-resistance.md)
 * [Looking Forward](looking-forward.md)
 * [Conclusion](conclusion.md)
-* [Notes](notes.md)
+* Mission
 
