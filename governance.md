@@ -1,12 +1,12 @@
 ## Juris Foundation Governance
 
-### Initial Governance
+#### Initial Governance
 
 Initially, platform development will be governed in a fashion similar to other open source software projects at their inception: a single leader from the Juris Foundation’s founding team will, amongst other roles, facilitate development, recognize contributions of the community, drive platform consensus, and break deadlocks. For example, direct vote by community members will be used to set technical direction, and anyone can submit pull requests. However, The Foundation will, at the outset, be the sole authority for which updates to the master Juris Framework will be manifest.
 
 This model is necessary during the early days of the platform to increase attack resistance until the value of the platform and the resilience for the Juris Reputation System are maturely established. Once the system is sufficiently stable, The Juris Foundation will activate a meritocratic, bicameral liquid democracy to transfer power of governance to the Juris community.
 
-### Bicameral Liquid Democracy
+#### Bicameral Liquid Democracy
 
 Proof-of-Work and Proof-of-Stake are popular and effective governance tools for many blockchain-based communities. They give governance power to those who either bear the cost of maintaining the system or stand to gain the most from its continued success \(respectively\). Therefore, they are very effective incentive-alignment tools. Yet they are not without their limitations, namely that they encourage winner-take-all dynamics. Fortunately, the addition of a bicameral liquid democracy ameliorates these shortcomings.
 

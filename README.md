@@ -1,4 +1,4 @@
-#### **Juris Adjudication Protocol**
+## **Juris Adjudication Protocol**
 
 ###### Human-Based Smart Contract Dispute Resolution
 

@@ -2,7 +2,7 @@
 
 To illustrate how Juris will work in the real world, here are a few stories:
 
-### Ziggy Stardust
+#### Ziggy Stardust
 
 Ziggy plays guitar. He’s an independent singer and songwriter who puts out music with his band The Spiders from Mars. He wants to sell his tunes, but he’s sick of dealing with iTunes and the streaming options. He only makes 30% of the purchase price there. He thought about selling his music direct, and taking payments through PayPal, but those transaction fees are pretty high as well. To compete he needs to offer his tracks at $.99, $1.50 max, and he’s losing $.30-.50 of that on each transaction. But Ziggy has been watching the evolution of blockchain tech, so he thinks he can do even better. He finds a service built on Ethereum called Ujo[^10] that helps him set up a store with Ethereum smart contracts. The contract sends an attached Mp3 file directly to anyone that sends in $1 worth of Ether. Easy, and he gets to keep way more of that dollar than he would have with any alternative.
 
@@ -12,7 +12,7 @@ The platform operators and Ziggy get a notification right away that the smart co
 
 Ziggy outputs the right track and lets the service know. They send the fixed Mp3 file to David and all of the other fans who have placed an order so far. David gets a ping that Ujo and Ziggy have marked the dispute as resolved. He agrees, so he marks the conflict as resolved via the Juris Dashboard as well. The funds are unlocked, and the contract is able to run. In 2 days Ziggy’s ETH is delivered. In that time, the service has fixed the smart contract for Ziggy’s track so this won’t happen to the next buyer. As buzz grows, 50,000 more tracks are sold in the next day, all smooth transactions. The CDK just saved Ziggy, Ujo, and thousands of fans a headache -- and possibly avoided some lawsuits.
 
-### 100k Twitter Followers?
+#### 100k Twitter Followers?
 
 Alfred, an aspiring London comedian, is looking to drastically grow his small presence on Twitter to reach new audiences. He currently has around 20k followers and dreams of hitting the low six figures. On CoinLancer[^11], a popular Ethereum-based freelancing marketplace, he finds Barbara: a self-proclaimed social media guru in Chicago. Barbara advertises that for 4 ETH she can grow anyone's Twitter follower count by 100k followers within 30 days. Alfred's sold: the price per follower sounds much better than any other offer he's seen. CoinLancer’s system helps Alfred enter into a smart contract with Barbara, set to programmatically test Alfred's follower count in 30 days.
 
@@ -28,7 +28,7 @@ Alfred awakes the next day and, to his delight, the SNAP has already rendered a 
 
 He submits to assent to the favorable opinion cast by the SNAP Jurists. If Barbara assents also, the case will be marked resolved and he'll be refunded his Ether. He and Barbara can part ways. He knows that if she doesn't, a second round of arbitration, this time binding, may happen. Seeing thousands of votes rendered in Alfred's favor, Barbara concedes and assents to the decision. The Ether tied up in the contract is returned to Alfred, and the JRS used to power the arbitration function in the contract is divided equally amongst all the arbiters who took part in the SNAP.
 
-## Crowdfunding \(Equity or Otherwise\)
+#### Crowdfunding \(Equity or Otherwise\)
 
 By now, the general public is aware of the idea of crowdfunding. US law has caught up to the extent that regulations have been rolled out allowing a restricted version of crowdfunding in exchange for equity. Nearly all securities contracts use an arbitration clause, or agreement. We already looked at how things worked with Ziggy, described above. It isn't difficult to extrapolate the implications for a Kickstarter- like platform, built via blockchain to maximize efficiency. But because ICOs are all the rage, lets take a look at that type of crowdfunding.
 
@@ -41,5 +41,4 @@ Ten investors would each like to pre-purchase 10,000 ETH of AwesomeCoin. Each pu
 Due to a technical problem while preparing for the token generation, the AwesomeCoin developers lose access to \[specific wallet address\]. This means the smart contracts will never trigger as specified in the SCAFT code. Without intervention, AwesomeCoin will never receive the full balance of their funds, and the investors will never receive their tokens. AwesomeCoin does not want to disrupt their timeline, so they push ahead, issue the tokens and distribute tokens manually from their new address, as promised, to the investors. Using the Juris self mediation tools, the developers propose that the money be transferred to their account even through the technical terms of the smart contract were not satisfied. Using the same tools, seven of the investor's signal their assent; the developers signal their assent, and the transfer executes. Two of the investors invoke the SCAFT’s cancellation terms. Those contracts are frozen, and all of the money left in those accounts is moved into a Juris CDK generated holding account. The parties are unable to talk it out, and they trigger a SNAP Judgement, after which point one of the investors signals their willingness to release funds. Both parties sign off, and the funds are released.
 
 The remaining investors choose to escalate the case further. This signals Juris to begin formation of a panel. The smart contract doesn’t detail what kind of mediation they would like, so default settings are used. The system guides the parties through the process to select a panel of three High Jurists. This panel hears arguments and examines evidence. At the end of that period, the judges find 2-to-1 for the entrepreneurs. Using their dispute mediation tools, without the consent of the investors, they transfer the remaining funds to the entrepreneurs' account. The panel members split the mediation fee, and rate each other's performance \(those ratings are used to update their reputation scores\).
-
 

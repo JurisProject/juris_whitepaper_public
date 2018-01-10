@@ -1,10 +1,8 @@
+## Non-Technical Overview
 
-
-## The Juris Protocol for the Non-Technical
+#### The Protocol
 
 A smart contract is protected by the Juris Protocol when the Juris CDK code is included in the contract, and backed by the attachment of a small quantity of JurisCoin \(JRS\). The CDK provides for a minimum subset of “just in case” contract terms in the form of code to be included in the smart contract. The CDK and Juris Dashboard help make sure that the party writing the contract has outlined the necessary terms of possible dispute resolution, or is aware of default CDK settings. It also makes sure that any other parties accessing the smart contract are aware of these terms as well. The necessary terms include details like the amount of time the parties will have to dispute a transaction following the smart contract’s execution, time for default in arbitration, and other specifics The Jurist Foundation or the United Nations recommend.
-
-\[Insert Figure\]
 
 Once the contract is written, the minimum JRS is attached, and the smart contract is live on a blockchain, that contract is protected by the Juris Protocol. For the life of the contract the JRS will remain attached, and the CDK terms will remain incorporated, unless otherwise specified to expire in the code. If the smart contract runs without dispute, and the time for a challenge expires, all attached JRS will be returned.
 
@@ -16,15 +14,15 @@ In the event of a dispute, the challenging party accesses the contract through t
 
 3. **Binding PANEL Judgement:** If the parties are unable to resolve their conflict to the satisfaction of all, one or more of the parties may choose to escalate further, through The Protocol, to a Juris PANEL judgement. Again, this will come at the cost of additional JRS, but will provide a binding judgement. As a bonus, enforceable by UN treaty in most of the world if legal followup is needed. When a case is escalated, the Juris system will facilitate the selection of a panel of three High Jurists: those at the highest level of reputation, classified by domain experience and any other factors outlined initially via CDK. This panel will be selected by UN mandated rules, and convene virtually through the Jurist Platform. They will have a pre-determined amount of time to hear additional arguments from the parties, request, collect, and review additional evidence, consider arguments, etc. Once this panel has made their decision, the presiding High Jurist will have the power via the CDK to execute the decision by immediately running the modified contract instructions. The dispute is marked resolved, and the additional JRS allocated for escalation is paid out evenly to the High Jurists who made up the panel.
 
-### Jurists
+#### Jurists
 
 Jurists are classified by their rank in The Juris Reputation System, and by their areas of demonstrated expertise. The reputation system is a blockchain based means of storing and representing the following: proof of certification, merit, competence, and engagement. This pool will initially be seeded by The Juris Foundation from existing, certified, arbitrators and legal professionals. But, anyone is welcome to sign up to start earning \(or losing\) reputation by voting on cases, taking part in discussion, and helping with opinions. Classified by expertise if specified, all Jurists are notified when there is a new case. If they take part in an initial SNAP vote they will be required to take part in the final vote, and are encouraged to take part in discussion.
 
 Reputation bleeds over time, and may be docked for bad behavior, and anyone is subject to rank demotion. All Jurist signups require proof of identity, and proof of certification if applicable. There are three reputation ranks:
 
-**High Jurists** are pre-certified and Juris Foundation vetted. They are arbitration professionals, and those who have earned advancement and maintained standing through the system. High Jurists are eligible for the more lucrative, but time consuming PANEL Judgements.
+**High Jurists:** are pre-certified and Juris Foundation vetted. They are arbitration professionals, and those who have earned advancement and maintained standing through the system. High Jurists are eligible for the more lucrative, but time consuming PANEL Judgements.
 
-**Good Standing Jurists** have continued to contribute fruitfully to decisions and discussions on the Juris platform. They are able to vote in SNAP Judgements, and the outcome of their anonymous votes will be included in the case files and reports to involved parties. They are able to advance to High Jurist by gaining reputation. Good Standing level reputation may be automatically obtained by providing proof of a law degree.
+**Good Standing Jurists:** have continued to contribute fruitfully to decisions and discussions on the Juris platform. They are able to vote in SNAP Judgements, and the outcome of their anonymous votes will be included in the case files and reports to involved parties. They are able to advance to High Jurist by gaining reputation. Good Standing level reputation may be automatically obtained by providing proof of a law degree.
 
-**Novice Jurists** are new signups not able to demonstrate any prior experience. They are allowed to take part in SNAP judgements and discussions, contribute to opinions, and earn reputation to advance to Good Standing.Their votes are not included in case files or reports to the parties involved in a dispute. \(They may also be invited to take part in mock trials, more in the "[Beyond Arbitration](/looking-forward.md)" Section\).
+**Novice Jurists:** are new signups not able to demonstrate any prior experience. They are allowed to take part in SNAP judgements and discussions, contribute to opinions, and earn reputation to advance to Good Standing.Their votes are not included in case files or reports to the parties involved in a dispute. \(They may also be invited to take part in mock trials, more in the "[Beyond Arbitration](/looking-forward.md)" Section\).
 

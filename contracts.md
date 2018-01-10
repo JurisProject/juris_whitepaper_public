@@ -1,12 +1,12 @@
 ## Background, Motivations, & Opportunities
 
-### Contract Law & Contract Disputes
+#### Contract Law & Contract Disputes
 
 The contract is one of the foundational innovations of human society. Contracts, backed by rule of law, allow for the creation of trusted agreements between parties who may have limited ability to check backgrounds, or enforce promises without the help of a government. Contracts, and contract law, allow cooperation to scale beyond the village square. And in the past half-century, the ability to work together has given birth to even more advanced means of cooperation. We’ve seen the progression from radio to television, the internet, the web, social media, and now blockchain technology. Each of these innovations has resulted in more communication, taking place further and further from the comfort of the village square. This means more and more reliance on contracts to back our agreements.
 
 Disputes under contract law arise when there is a perceived failure of cooperation. Fingers are pointed, and arguments are made about meaning and understanding. Contract law does its best to provide a peaceful solution, and codify results for future reference. But, disputes regarding intent, expression of intent, and understanding of that intent by all parties are forever rooted in the vagary and nuance of human life and language. For this reason, there will always be contract disputes. When these disputes occur, the parties call on the government and rule of law to resolve confusion and enforce resolution.
 
-### Smart Contracts
+#### Smart Contracts
 
 Uniquely enabled by blockchain technology, the “smart contract” is a new evolution of cooperation via agreement. Over the past decade, blockchain has crept into the backbone of myriad previously centralized, analog processes. From currency exchanges and crowdfunding, to identity management and self-governance systems. Activities previously reliant on central authority are leveraging blockchain’s distributed, immutable, record-keeping to become more fault tolerant, more inclusively accessible, and more democratically operated. At the core, all of this works in service of the same end as does contract law: increased ability to co-operate securely. It makes sense that blockchain would carry with it a new evolution of the contract itself, the “smart contract.”
 
@@ -16,7 +16,7 @@ Standard contracts are documents that represent the agreement between two partie
 
 Because of this, blockchain technologies and smart contracts are sometimes called “trust-less,” as they enable a measure of enforcement without government backup. You don’t have to trust the other party to an agreement to fulfill their obligation; the code just does it. But this code is a “contract” insofar as it represents intent by multiple parties that a form of co-operation is to take place. In this way even smart contracts will inevitably, on occasion, fall prey to the same trappings of human frailty we encounter in the practice of contract law.
 
-### Alternative Dispute Resolution
+#### Alternative Dispute Resolution
 
 As society has grown and technology has provided for more and more cooperation -- and corresponding legal agreements -- the frequency of such disputes has given rise to judicially recognized Alternative Dispute Resolution \(ADR\) mechanisms[^3]. For the parties tied up in a dispute, these alternatives provide a means of peaceful resolution that is faster and cheaper than the court system. For the court systems, ADR helps them keep their docket under control so they can worry about important matters like criminal trials. Modern contracts between parties frequently include “arbitration clauses,” which stipulate that in the event of a dispute the parties agree to air their grievances before a neutral third party, and accept the decision rendered, rather than using their right to pursue resolution via the court system.
 
@@ -24,13 +24,13 @@ Under most ADR systems, arbitration is overseen by a professional neutral arbite
 
 For all their recognition and respect, ADR systems have fallen behind. The Juris CDK, Mediation Tools, and Adjudication Protocol are the next evolution of dispute resolution, built for the next wave of human communication, cooperation, and innovation.
 
-### Human Tools, Human Rights
+#### Human Tools, Human Rights
 
 Blockchain technologies and smart contracts present the world with a new way of structuring and executing agreements between parties. Yet, for all of their revolutionary capacity, those technologies work in service of human ends, and will never be free of the aforementioned vagary and nuance. People will misunderstand or misrepresent. Intent and meaning will mis-match. Software will have bugs. And, so,  people will desire a mechanism to protect their right to a fair resolution of wrongdoing, disagreement, negligence, or conflict. Millennia of contracts, contract law, cooperation, and conflicts have given rise to modern international systems of arbitration. Held to United Nations convention standards, arbitration is a recognized means of dispute resolution. The Juris Protocol we propose evolves those systems for blockchain applications, and in doing so represents the next evolution of fair and peaceful dispute resolution, and justice.
 
 While creating Juris, we hold it as truth that peaceful resolution of disagreements is a human right. We believe that the progress of further human cooperation and technological expansion will depend on the ability to feel secure in one’s agreements, and in one’s ability to seek justice when those agreements fail. It is only a matter of time before this new form of cooperation, fed by the evolution of blockchain technology, progresses into the function of democracy, systems of law, and dispute resolution. As such, our goal for Juris is to digitize and decentralize the mediation and arbitration process, and to bring arbitration to decentralized contract systems such as the Ethereum smart contract. At maturity, an arbitration platform for the blockchain holds the potential be an indispensable part of participation in any smart contract, **any contract**, and any system of human cooperation.
 
-### Bringing Rule of Law to the World
+#### Bringing Rule of Law to the World
 
 > The rule of law and development are strongly interrelated and mutually reinforcing\[.\] \[T\]he advancement of the rule of law at the national and international level is essential for sustained and inclusive economic growth, sustainable development, the eradication of poverty and hunger and the full realization of all human rights and fundamental freedoms, including the right to development, which in turn reinforce\[s\] the rule of law.
 
@@ -40,7 +40,7 @@ Contracts have the power to facilitate cooperation only to the extent that they 
 
 Hence, the imperative for a system like Juris. Here we leverage the smart contract constraint that a token asset can be inextricably linked to the execution of the contract itself. Because of this link we are able to ensure that - should dispute arise - the process of performance is automatically executable, just as the standard behavior of the contract would have been without dispute. Over the past decade, disruptive technologies like Bitcoin[^4] and Mpesa[^5] have distributed banking services to over 1 billion people. We see here the opportunity for a similar distribution of Rule of Law via Juris. When arbitrating a smart contract running through Juris, an arbitrator would be able to directly enforce their judgement regarding the assets described within the code of the smart contract, distributing the assets as law and justice require. This removes the need for local judicial backup behind the terms of an agreement.
 
-### The United Nations, Arbitration, and International Law
+#### The United Nations, Arbitration, and International Law
 
 Carried out to United Nations standards, arbitration is well suited for dispute resolution in the distributed, often multi-jurisdictional context of blockchain and smart contracts. 157 of 193 UN countries[^6] are signatories to The New York Convention[^7], which recognizes arbitral awards across borders if those awards are the result of arbitration proceedings which follow UN mandated minimum rules. Additionally, many countries have adopted UNCITRAL Model Arbitration Laws, which provide for the same. This treaty and these laws mean that any system of arbitration built to UN standards is already internationally enforceable via traditional means, if need be.
 
@@ -48,7 +48,7 @@ Built to parallel the UNCITRAL arbitration rules[^8], the Juris CDK will provide
 
 The Juris platform seeks to provide global citizens with viable and reliable access to internationally enforceable options for contractual agreement, and conflict resolution. Smart contracts are able to reach the farthest corners of the connected world, creating the opportunity for an increasing number of people to take part in secure transactions that may have otherwise been questionable, or impossible. For citizens, this means increased access to justice. For jurists, this means access to new markets which will grow with the adoption of blockchain, mobile devices, and the web, instead of markets that grow only at the pace of stable government.
 
-### All Software Has Bugs
+#### All Software Has Bugs
 
 Through decades of software development and the composition of billions of source lines of code, by millions of programmers, at least one maxim has held true: where there is software, we will find bugs. Estimates vary, but at least one thorough study suggests that software defects cost 1.1 trillion dollars in the year 2016 alone.[^9] Browse through the commit history of any one of thousands of open source projects on GitHub, and it will be readily apparent that bugs are both a\) pervasive and b\) not limited to novice programmers.
 
