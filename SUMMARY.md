@@ -1,6 +1,6 @@
 # Summary
 
-* [Authors & Contact Information](README.md)
+* [Abstract](README.md)
 * [Introduction](introduction.md)
 * [Value Proposition](value-proposition.md)
 * [Background, Motivations, & Opportunities](contracts.md)
