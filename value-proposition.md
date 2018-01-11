@@ -8,7 +8,7 @@ Dispute resolution is not the core focus of any dApp publisher, but is a vital c
 
 #### Value to Contract Parties & Developers
 
-The Juris platform will provide Protocol users to add a layer of human-based risk mitigation to their smart contracts at minimal expense. Developers will be able to make JRS by contributing to the open source protocol.
+The Juris platform will provide Protocol users to add a layer of human-powered risk mitigation to their smart contracts at minimal expense. Developers will be able to make JRS by contributing to the open source protocol.
 
 #### Value to Jurists
 
