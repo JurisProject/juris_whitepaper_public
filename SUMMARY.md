@@ -15,5 +15,4 @@
 * [Attack Resistance](attack-resistance.md)
 * [Looking Forward](looking-forward.md)
 * [Conclusion](conclusion.md)
-* Mission
 
