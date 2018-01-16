@@ -103,7 +103,9 @@ SNAP is structured to provide numerous opportunity for:
 **\(1\) **Jurists to demonstrate good judgement, and  
 **\(2\)** Jurists to implicitly or explicitly endorse the judgement of other Jurists.
 
-These endorsements can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our _Trust Metric._![](/assets/IMG_0048.jpg)_Figure 1.11.1_
+These endorsements can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our _Trust Metric._
+
+![](/assets/IMG_0051.jpg)_Figure 1.11.1_
 
 #### Accounting for the Basics
 
