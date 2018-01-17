@@ -103,10 +103,6 @@ SNAP is structured to provide numerous opportunity for:
 **\(1\) **Jurists to demonstrate good judgement, and  
 **\(2\)** Jurists to implicitly or explicitly endorse the judgement of other Jurists.
 
-These endorsements can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our _Trust Metric._
-
-![](/assets/IMG_0051.jpg)_Figure 1.11.1_
-
 #### Accounting for the Basics
 
 It is important to take into account a subset of standard best practices, which may have little to do with judgement. Finish what you start. Be polite. Report conflicts of interest. These practices do not really prove that one has good judgement, but failing to do them impacts trustworthiness. So, if a Jurist makes an opening vote, and does not make a final vote, or endorse an opinion, they will lose Rep. If a Jurist is reported for bad, abusive, or clearly biased behavior, they will lose Rep.
@@ -117,11 +113,11 @@ The structure of measurement in this space will take shape over time, but can be
 
 #### PANEL Peer Review
 
-PANEL's don't have as many inherent structured opportunities for Jurists to demonstrate their good judgement. They are, by their nature, much more freeform. Therefore in a PANEL, Jurists will endorse each other much more explicitly using peer review following PANEL proceedings. These peer reviews will be structured to elicit meaningful measures of endorsement, as well as feedback for the most skilled of the Jurist pool, allowing them to improve and maintain standing.
+PANEL's don't have as many inherent structured opportunities for Jurists to demonstrate their good judgement. They are, by their nature, much more freeform. Therefore in a PANEL, Jurists will endorse each other much more explicitly using peer review following PANEL proceedings. These peer reviews will be structured to elicit meaningful measures of endorsement, as well as feedback for the most skilled of the Jurist pool, allowing them to improve and maintain standing.![](/assets/IMG_0064.jpg)_Figure 11.1_
 
 ## Graph Analysis
 
-All of the implicit endorsements produced during dispute mediation will be modeled as a weighted, directed graph. Rep earned will slowly 'rot' over time, ensuring that the graph remains current, and promotes ongoing engagement. By using various graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc.\), we will be able to infer Jurists' Rep within the network. There is extensive academic literature on using graph analysis to infer 'trust' and 'reputation' within distributed systems. By drawing on this literature, and balancing different graph analytical techniques, we'll be able to achieve the goals set above.
+All of these implicit or explicit "endorsements" can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our _Trust Metric. _All of the endorsements produced during dispute mediation will be modeled as a weighted, directed graph. Rep earned will slowly 'rot' over time, ensuring that the graph remains current, and promotes ongoing engagement. By using various graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc.\), we will be able to infer Jurists' Rep within the network. There is extensive academic literature on using graph analysis to infer 'trust' and 'reputation' within distributed systems. By drawing on this literature, and balancing different graph analytical techniques, we'll be able to achieve the goals set above.
 
 ## Repchain Attack Resistance
 
