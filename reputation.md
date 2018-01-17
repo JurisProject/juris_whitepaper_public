@@ -117,7 +117,9 @@ PANEL's don't have as many inherent structured opportunities for Jurists to demo
 
 ## Graph Analysis
 
-All of these implicit or explicit "endorsements" can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our _Trust Metric. _All of the endorsements produced during dispute mediation will be modeled as a weighted, directed graph. Rep earned will slowly 'rot' over time, ensuring that the graph remains current, and promotes ongoing engagement. By using various graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc.\), we will be able to infer Jurists' Rep within the network. There is extensive academic literature on using graph analysis to infer 'trust' and 'reputation' within distributed systems. By drawing on this literature, and balancing different graph analytical techniques, we'll be able to achieve the goals set above.
+All of these implicit or explicit "endorsements" can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our \_Trust Metric. \_All of the endorsements produced during dispute mediation will be modeled as a weighted, directed graph. Rep earned will slowly 'rot' over time, ensuring that the graph remains current, and promotes ongoing engagement. By using various graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc.\), we will be able to infer Jurists' Rep within the network. There is extensive academic literature on using graph analysis to infer 'trust' and 'reputation' within distributed systems. By drawing on this literature, and balancing different graph analytical techniques, we'll be able to achieve the goals set above.
+
+![](blob:https://www.gitbook.com/4590170b-72ac-4b70-b901-6df180ef477b)_Figure 11.1_
 
 ## Repchain Attack Resistance
 
