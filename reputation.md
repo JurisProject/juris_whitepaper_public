@@ -113,7 +113,7 @@ The structure of measurement in this space will take shape over time, but can be
 
 #### PANEL Peer Review
 
-PANEL's don't have as many inherent structured opportunities for Jurists to demonstrate their good judgement. They are, by their nature, much more freeform. Therefore in a PANEL, Jurists will endorse each other much more explicitly using peer review following PANEL proceedings. These peer reviews will be structured to elicit meaningful measures of endorsement, as well as feedback for the most skilled of the Jurist pool, allowing them to improve and maintain standing.![](/assets/IMG_0064.jpg)_Figure 11.1_
+PANEL's don't have as many inherent structured opportunities for Jurists to demonstrate their good judgement. They are, by their nature, much more freeform. Therefore in a PANEL, Jurists will endorse each other much more explicitly using peer review following PANEL proceedings. These peer reviews will be structured to elicit meaningful measures of endorsement, as well as feedback for the most skilled of the Jurist pool, allowing them to improve and maintain standing.
 
 ## Graph Analysis
 
