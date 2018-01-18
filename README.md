@@ -1,6 +1,6 @@
 ## **Juris Adjudication Protocol**
 
-###### Human-Powered Smart Contract Dispute Resolution
+###### Human-Powered Dispute Resolution for Smart Contracts
 
 Adam J. Kerpelman, JD // Ramsay Brown // Akash Desai // Matt Mayberry // Jake Dodd  // Vince Enachescu  // T. Dalton Combs, PhD
 
