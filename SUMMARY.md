@@ -7,7 +7,7 @@
 * [Background, Motivations, & Opportunities](contracts.md)
 * [Non-Technical Overview](protocol-non-technical.md)
 * [Real World Use](use-cases.md)
-* [The Current State of The Art](current-state-of.md)
+* [Current State of The Art](current-state-of.md)
 * [The Juris Framework](framework.md)
 * [JRS Token](juristoken.md)
 * [Reputation Blockchains](reputation.md)
