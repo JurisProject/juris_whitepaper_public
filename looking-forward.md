@@ -14,7 +14,7 @@ In this context, the Repchain is potentially more important for the persistence 
 
 #### Jurists
 
-Potential \(non-developer\) Jurists will want to commit to JurisCoin quickly because holding JRS lets them move to accrue reputation sooner. This will allow them to advance more quickly to placement on the more lucrative PANELs. While the ability to fork the protocol is inherently simple, Jurists will be reluctant to leave JRS for alternatives because they cannot take the associated reputation with them. Better to stay and improve the system in which they are invested by taking part in governance functions also afforded by the holding of JRS and associated reputation.
+Potential \(non-developer\) Jurists will want to commit to Juris Tokens quickly because holding JRS lets them move to accrue reputation sooner. This will allow them to advance more quickly to placement on the more lucrative PANELs. While the ability to fork the protocol is inherently simple, Jurists will be reluctant to leave JRS for alternatives because they cannot take the associated reputation with them. Better to stay and improve the system in which they are invested by taking part in governance functions also afforded by the holding of JRS and associated reputation.
 
 #### Developers
 
