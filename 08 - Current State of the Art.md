@@ -1,4 +1,4 @@
-## Current State of the Art
+# Current State of the Art
 
 Especially following the collapse of the DAO, the need for mediation and arbitration on blockchain-based smart contracts has spurred teams to investigate what frameworks may be developed to build this necessary part of the blockchain ecosystem. Two projects in particular serve as compelling starting points for discourse and improvement, and have been taken into consideration while developing Juris.
 
@@ -18,4 +18,6 @@ The best players in each of these spaces have recognized that there will be disp
 
 Juris is first-and-foremost a tool for these platforms to get out of the business of dispute resolution so that they can focus on their core value. By integrating Juris into their platform, they are outsourcing a highly technical, possibly existential problem.
 
-
+[^12]: [https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc](https://github.com/thirdkey-solutions/damn/blob/master/proposal.asciidoc)
+[^13]: [https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true](https://dao.consider.it/decentralized-arbitration-and-mediation-network?results=true)
+[^14]: [https://medium.com/kleros/kleros-a-decentralized-justice-protocol-for-the-internet-38d596a6300d](https://medium.com/kleros/kleros-a-decentralized-justice-protocol-for-the-internet-38d596a6300d)

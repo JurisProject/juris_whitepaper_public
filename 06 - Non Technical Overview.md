@@ -1,4 +1,4 @@
-## Non-Technical Overview
+# Non-Technical Overview
 
 #### The Protocol
 
@@ -25,4 +25,3 @@ Reputation bleeds over time, and may be docked for bad behavior, and anyone is s
 **Good Standing Jurists:** have continued to contribute fruitfully to decisions and discussions on the Juris platform. They are able to vote in SNAP Judgements, and the outcome of their anonymous votes will be included in the case files and reports to involved parties. They are able to advance to High Jurist by gaining reputation. Good Standing level reputation may be automatically obtained by providing proof of a law degree.
 
 **Novice Jurists:** are new signups not able to demonstrate any prior experience. They are allowed to take part in SNAP judgements and discussions, contribute to opinions, and earn reputation to advance to Good Standing.Their votes are not included in case files or reports to the parties involved in a dispute. \(They may also be invited to take part in mock trials, more in the "[Beyond Arbitration](/looking-forward.md)" Section\).
-

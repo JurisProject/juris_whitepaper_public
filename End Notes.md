@@ -1,4 +1,4 @@
-## Notes
+# End Notes
 
 ---
 
@@ -37,6 +37,3 @@
 17. [https://link.springer.com/article/10.1007/s10796-005-4807-3](https://link.springer.com/article/10.1007/s10796-005-4807-3)
 
 18. [https://en.wikipedia.org/wiki/Bar\_association](https://en.wikipedia.org/wiki/Bar_association)
-
-
-

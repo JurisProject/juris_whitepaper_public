@@ -1,4 +1,4 @@
-## Introduction - Calamity on the Blockchain
+# Calamity on the Blockchain: an Introduction
 
 In May 2016, the DAO, or “Decentralized Autonomous Organization” launched the largest crowdfunding campaign in history.[^1] Not just on the Ethereum Blockchain -- but **ever**. They raised 150 million dollars worth of Ether by the end of 28 days. But, their success was short lived: on June 17th, 2016, we saw what happens when the intention behind a “Smart Contract” diverges from its codified implementation. Several errors inside the smart contract code written by the DAO team allowed a single bad actor to drain 50 million dollars worth of Ether from the DAO wallets overnight. The remainder of the funds were saved only because a group of “white hat” hackers moved them to a friendly wallet via the same exploit.
 
@@ -6,5 +6,6 @@ The breach was significant enough to drastically undermine investor confidence i
 
 Had the set of smart contracts that constituted the DAO been constructed with an adjudication platform available as insurance \(in the way court systems safeguard ink and paper contracts\) the events that unfolded, ranging from the loss of market cap to the “Hard Fork” of Ethereum, may have been preventable. It is to avoid catastrophes like these, and engender a better confidence in smart contracts at large, that we propose **Juris**: a decentralized adjudication platform for blockchain smart contracts.
 
+[^1]: [https://en.wikipedia.org/wiki/The\_DAO\_%28organization%29ethereum](https://en.wikipedia.org/wiki/The_DAO_%28organization%29ethereum)
 
-
+[^2]: [https://www.coindesk.com/ethereum-executes-blockchain-hard-fork-return-dao-investor-fun](https://www.coindesk.com/ethereum-executes-blockchain-hard-fork-return-dao-investor-funds/)

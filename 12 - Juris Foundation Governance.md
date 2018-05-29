@@ -1,4 +1,4 @@
-## Juris Foundation Governance
+# Juris Foundation Governance
 
 #### Initial Governance
 
@@ -16,3 +16,4 @@ Therefore, we propose Juris be governed by a bicameral liquid democracy; one cha
 
 A Liquid Democracy or Delegated Democracy vests voting power in assigned delegates instead of representatives. This enables voters to take an active role and vote on issues directly, or take a passive role and delegate voting power to a trusted party with domain expertise. Through either direct voting or proper delegation, people with domain knowledge of the topic are able to better influence the outcome of decisions, which in turn leads to an overall better governance of the state. Because of this, a Liquid Democracy naturally evolves into a system where decisions are mainly made by those who have the expertise required to make well-informed decisions on issues.
 
+[^18]: [https://en.wikipedia.org/wiki/Bar\_association](https://en.wikipedia.org/wiki/Bar_association)

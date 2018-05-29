@@ -1,4 +1,4 @@
-## Background, Motivations, & Opportunities
+# Background, Motivations, & Opportunities
 
 #### Contract Law & Contract Disputes
 
@@ -33,8 +33,7 @@ While creating Juris, we hold it as truth that peaceful resolution of disagreeme
 #### Bringing Rule of Law to the World
 
 > The rule of law and development are strongly interrelated and mutually reinforcing\[.\] \[T\]he advancement of the rule of law at the national and international level is essential for sustained and inclusive economic growth, sustainable development, the eradication of poverty and hunger and the full realization of all human rights and fundamental freedoms, including the right to development, which in turn reinforce\[s\] the rule of law.
-
-**- UN Declaration on Rule of Law**
+> **-- UN Declaration on Rule of Law**
 
 Contracts have the power to facilitate cooperation only to the extent that they are backed by government legal systems, and rule of law. In countries without functioning courts, parties to contracts cannot be compelled to perform. Even in countries with strong civil law, getting an arbitration judgement is just half of the battle. If a party does not conform to the judgement, the aggrieved party can go to the court to get an order to seize assets, garnish wages, or similar. Globally, this process is often difficult, time consuming, complicated across borders, and still cannot happen in many places that suffer from weak rule of law.
 
@@ -54,3 +53,10 @@ Through decades of software development and the composition of billions of sourc
 
 The second inference—that bugs are committed by experienced and novice programmers alike—has grave implications for the future of smart contracts. After all, smart contracts are just software. It would be an extraordinary claim to suggest that the increased adoption and correspondingly increased sophistication of smart contracts will reduce the incidence of bugs when history has shown us otherwise. We can expect quite the opposite, actually; as smart contracts are adopted more widely, they’ll be applied to increasingly difficult problem domains, with an increase in complexity to match. Software defects will continue to be a fact of life, and will worm their way into smart contracts—often, with dire consequences.
 
+[^3]: [https://en.wikipedia.org/wiki/Alternative\_dispute\_resolution](https://en.wikipedia.org/wiki/Alternative_dispute_resolution)
+[^4]: [https://en.wikipedia.org/wiki/Bitcoin](https://en.wikipedia.org/wiki/Bitcoin)
+[^5]: [https://en.wikipedia.org/wiki/M-Pesa](https://en.wikipedia.org/wiki/M-Pesa)
+[^6]: [http://www.uncitral.org/uncitral/en/uncitral\_texts/arbitration/NYConvention\_status.html](http://www.uncitral.org/uncitral/en/uncitral_texts/arbitration/NYConvention_status.html)
+[^7]: [https://en.wikipedia.org/wiki/Convention\_on\_the\_Recognition\_and\_Enforcement\_of\_Foreign\_Arbitral\_Awards](https://en.wikipedia.org/wiki/Convention_on_the_Recognition_and_Enforcement_of_Foreign_Arbitral_Awards)
+[^8]: [https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf](https://www.uncitral.org/pdf/english/texts/arbitration/arb-rules/arb-rules.pdf)
+[^9]: [https://www.tricentis.com/resource-assets/software-fail-watch-2016/](https://www.tricentis.com/resource-assets/software-fail-watch-2016/)

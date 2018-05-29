@@ -1,4 +1,4 @@
-## System Attack Resistance
+# System Attack Resistance
 
 #### Sybil Attack
 
@@ -7,4 +7,3 @@ The reputation algorithm and Repchain will make it very expensive to produce hig
 #### 50%+1 Attack
 
 On top of the mechanisms that make a 51% attack difficult on any blockchain platform, the bicameral structure of Juris Foundation governance will make Juris much more resistant to a 51% attack. Even if someone could control a super majority of Juris Proof of Stake they would be blocked by the Proof of Judgment chamber from forcing any changes to the Foundation Contract.
-

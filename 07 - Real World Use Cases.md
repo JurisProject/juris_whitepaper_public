@@ -1,4 +1,4 @@
-## Real World Juris Use
+# Real World Juris Use
 
 To illustrate how Juris will work in the real world, here are a few stories:
 
@@ -42,3 +42,5 @@ Due to a technical problem while preparing for the token generation, the Awesome
 
 The remaining investors choose to escalate the case further. This signals Juris to begin formation of a panel. The smart contract doesn’t detail what kind of mediation they would like, so default settings are used. The system guides the parties through the process to select a panel of three High Jurists. This panel hears arguments and examines evidence. At the end of that period, the judges find 2-to-1 for the entrepreneurs. Using their dispute mediation tools, without the consent of the investors, they transfer the remaining funds to the entrepreneurs' account. The panel members split the mediation fee, and rate each other's performance \(those ratings are used to update their reputation scores\).
 
+[^10]: [https://ujomusic.com](https://ujomusic.com)
+[^11]: [https://www.coinlancer.io](https://www.coinlancer.io)

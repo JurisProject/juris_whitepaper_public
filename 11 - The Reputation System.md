@@ -1,4 +1,4 @@
-# The Reputation System
+# The Juris Reputation System
 
 #### Background
 
@@ -119,7 +119,9 @@ PANEL's don't have as many inherent structured opportunities for Jurists to demo
 
 All of these implicit or explicit "endorsements" can be used as the raw data for a directed weighted graph \(DWG\). By applying graph analytical techniques to these DWGs we can infer our \_Trust Metric. \_All of the endorsements produced during dispute mediation will be modeled as a weighted, directed graph. Rep earned will slowly 'rot' over time, ensuring that the graph remains current, and promotes ongoing engagement. By using various graph analytical techniques \(PageRank, AvoGatoTrust, EigenTrust, etc.\), we will be able to infer Jurists' Rep within the network. There is extensive academic literature on using graph analysis to infer 'trust' and 'reputation' within distributed systems. By drawing on this literature, and balancing different graph analytical techniques, we'll be able to achieve the goals set above.
 
-![](/assets/IMG_0064.jpg)_Figure 11.1_
+/IMG_0064.jpg
+
+_Figure 11.1_
 
 ## Repchain Attack Resistance
 
@@ -127,3 +129,4 @@ Simple point-based karma systems are vulnerable to many classes of attack. For e
 
 Nodes mining the Repchain would preform this graph analyses as part of their Proof-of-Work. It's much easier to check the result of a graph analysis, O\(n\), than it is to preform the analysis, O\(n^3\). This makes it a good fit for distributed proof of work.
 
+[^17]: [https://link.springer.com/article/10.1007/s10796-005-4807-3](https://link.springer.com/article/10.1007/s10796-005-4807-3)

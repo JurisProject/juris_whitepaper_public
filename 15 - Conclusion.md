@@ -1,12 +1,10 @@
-## Conclusion
+# Conclusion
 
-> No freemen shall be taken or imprisoned or disseised or exiled or in any way destroyed, nor will we go upon him nor send upon him, except by the lawful judgment of his peers or by the law of the land.
+> No freemen shall be taken or imprisoned or disseised or exiled or in any way destroyed, nor will we go upon him nor send upon him, except by the lawful judgment of his peers or by the law of the land. 
+> **-- Article 39, Magna Carta \(1215\)**
 
-**-Article 39, Magna Carta \(1215\)**
-
-> Whoever controls the courts controls the state.
-
-**-Aristotle**
+> Whoever controls the courts controls the state. 
+> **-- Aristotle**
 
 In the last thirty years we have witnessed the rapid digitization, decentralization, and distribution of myriad services and tools we would, only ten years ago, have declared to exist steadfastly in the "real world". These technologies have fundamentally alternated the way humans communicate. With this transition we have seen the rise of new problems, and new solutions. Among those solutions we find blockchain technology, which gives us a simple but fundamentally different way of recording transactions between humans. And on the back of this fundamental change we now find ourselves with a tool: **the smart contract**.
 
@@ -17,4 +15,3 @@ Smart contracts and blockchain technologies evolve the way that transactions and
 Any tool working in service of human cooperation, and for blockchain-based technologies and smart contracts to truly take hold, we must acknowledge this basic fact: **disputes will happen, **software will have bugs, humans will disagree, and humans will misunderstand, often through no fault of their own. When these disputes occur centuries of refinement, study, and application have shown that the only fair means of resolution is by a jury of one's peers.
 
 It is the mission of the Juris Foundation, and the goal of the continuing development of the Juris Protocol, to create a decentralized and distributed justice system; a justice system able to provide fair dispute resolution at the scale and accessibility of the Internet. For, it is only on the back of such a system of fair dispute resolution that the promise of blockchain technology to bring about global democracy can be realized.
-
